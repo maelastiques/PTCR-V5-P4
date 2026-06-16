@@ -1,0 +1,47 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "56eac3e3-c8f0-495a-99e1-eb63eeec806e")
+	(paper "A4")
+	(lib_symbols)
+	(text "PORTS"
+		(exclude_from_sim no)
+		(at 12.954 16.764 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "e519d4fb-fa50-4471-8c75-29d407a0608d")
+	)
+	(text_box "Additional GPIOs"
+		(exclude_from_sim no)
+		(at 39.37 29.21 0)
+		(size 133.35 71.12)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6f4e0f45-7298-4b4e-814f-9fccf46934ee")
+	)
+	(sheet_instances
+		(path "/"
+			(page "6")
+		)
+	)
+	(embedded_fonts no)
+)

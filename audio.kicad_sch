@@ -1,0 +1,27 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "9e699657-5fe1-443a-bcfd-bc15275ea388")
+	(paper "A4")
+	(lib_symbols)
+	(text "AUDIO"
+		(exclude_from_sim no)
+		(at 12.954 16.764 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "af929ba7-d8e5-46d6-97e9-2ab3f61ad972")
+	)
+	(sheet_instances
+		(path "/"
+			(page "4")
+		)
+	)
+	(embedded_fonts no)
+)

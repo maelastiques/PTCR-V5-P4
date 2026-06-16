@@ -1,0 +1,20 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "82410a1e-4318-44e0-8274-3fe4cf59b361")
+	(paper "A3")
+	(title_block
+		(title "PTCR (Portable Text Communication Radio)")
+		(date "2026-03-16")
+		(rev "V3.0")
+		(company "maelastiques")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
