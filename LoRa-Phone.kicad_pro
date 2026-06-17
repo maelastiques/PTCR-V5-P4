@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 3.45,
-          "width": 3.45
+          "height": 3.8,
+          "width": 3.8
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -194,6 +194,7 @@
         }
       ],
       "track_widths": [
+        0.0,
         0.0
       ],
       "tuning_pattern_settings": {
@@ -512,7 +513,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1524,
         "tuning_profile": "",
-        "via_diameter": 0.4,
+        "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
@@ -520,7 +521,7 @@
         "clearance": 0.4064,
         "name": "POWER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4064,
         "tuning_profile": "",
@@ -528,11 +529,20 @@
         "via_drill": 0.3
       },
       {
+        "clearance": 0.508,
+        "name": "RF",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3292,
+        "tuning_profile": ""
+      },
+      {
         "clearance": 0.1016,
         "microvia_diameter": 0.3,
         "name": "SIGNAL",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1016,
         "tuning_profile": "",
@@ -545,7 +555,36 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "RF",
+        "pattern": "RF?"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "ROS"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "ANT"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "FWD_IN"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "FWD_OUT"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "REV_IN"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "REV_OUT"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -815,71 +854,17 @@
     "top_level_sheets": [
       {
         "filename": "mcu.kicad_sch",
-        "name": "MCU",
+        "name": "MAIN",
         "uuid": "fff46893-0699-4aa5-a494-28eece10d711"
-      },
-      {
-        "filename": "power.kicad_sch",
-        "name": "POWER",
-        "uuid": "c70bc54c-4f63-460f-8591-4e6bed9dff6a"
-      },
-      {
-        "filename": "inputs.kicad_sch",
-        "name": "INPUTS",
-        "uuid": "40632161-6243-467e-bcf8-d97975a0644c"
-      },
-      {
-        "filename": "ports.kicad_sch",
-        "name": "PORTS",
-        "uuid": "644a8284-de06-4256-aab6-f3d4201cdcc7"
-      },
-      {
-        "filename": "outputs.kicad_sch",
-        "name": "OUTPUTS",
-        "uuid": "f88d579a-d967-46bf-9635-bc93de52744e"
-      },
-      {
-        "filename": "sensors.kicad_sch",
-        "name": "SENSORS",
-        "uuid": "90b51e3c-7f6c-4df4-887f-c498f77c5915"
-      },
-      {
-        "filename": "radio.kicad_sch",
-        "name": "RADIO",
-        "uuid": "2f2662cc-7d0b-4f33-af7a-99df77e6e99d"
       }
     ],
-    "used_designators": "J2,#PWR1-2,#PWR33-35,#PWR56-66,C4,C8-11,R10,R81-82,U1",
+    "used_designators": "HY1,L2,AE1,AE4-6,R70,R74-80,R83-97,M1,J1,J4,J6,C3,C5-8,C16-17,C23-29,C36-40,C87,C89-114,FB1-2,U2-4,U6,U10-11,U13,U21,U23-24,TP2,TP4,#PWR7,#PWR10,#PWR17,#PWR32,#PWR36-37,#PWR50-51,#PWR53,#PWR67-72,#PWR83-85,#PWR89-101,#PWR106,#PWR135,#PWR137-186,#PWR241-244,#PWR255-260,IC1-3",
     "variants": []
   },
   "sheets": [
     [
       "fff46893-0699-4aa5-a494-28eece10d711",
-      "MCU"
-    ],
-    [
-      "c70bc54c-4f63-460f-8591-4e6bed9dff6a",
-      "POWER"
-    ],
-    [
-      "90b51e3c-7f6c-4df4-887f-c498f77c5915",
-      "SENSORS"
-    ],
-    [
-      "40632161-6243-467e-bcf8-d97975a0644c",
-      "INPUTS"
-    ],
-    [
-      "644a8284-de06-4256-aab6-f3d4201cdcc7",
-      "PORTS"
-    ],
-    [
-      "f88d579a-d967-46bf-9635-bc93de52744e",
-      "OUTPUTS"
-    ],
-    [
-      "2f2662cc-7d0b-4f33-af7a-99df77e6e99d",
-      "RADIO"
+      "MAIN"
     ]
   ],
   "text_variables": {},
