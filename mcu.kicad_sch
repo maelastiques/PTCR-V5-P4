@@ -10112,12 +10112,6 @@
 		(uuid "733533e2-6d63-4158-bb7b-bdbc7f2e19cc")
 	)
 	(junction
-		(at 185.42 227.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "750edd55-1ed3-4041-99d0-8e39ecd84a62")
-	)
-	(junction
 		(at 242.57 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10140,6 +10134,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e675847-b6da-4431-98a6-74a096ea5883")
+	)
+	(junction
+		(at 41.91 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "810a48e3-0010-4b6f-897a-1df8402bbb67")
 	)
 	(junction
 		(at 232.41 254)
@@ -10232,16 +10232,16 @@
 		(uuid "bb8ce6db-f92d-4d73-9c8b-7d11fa576e93")
 	)
 	(junction
+		(at 17.78 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bca9536f-124f-4d58-ad20-bbdd3d68b0db")
+	)
+	(junction
 		(at 260.35 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd4fcc9f-9e0b-451f-b498-cea9208e884c")
-	)
-	(junction
-		(at 22.86 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1522231-6e57-4748-b6fe-6b0642ab6acd")
 	)
 	(junction
 		(at 240.03 213.36)
@@ -10310,12 +10310,6 @@
 		(uuid "dfec4655-e746-4f2b-b6fa-74286489ca84")
 	)
 	(junction
-		(at 27.94 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e401539e-8d75-4873-8932-5b1d6b08cf94")
-	)
-	(junction
 		(at 246.38 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10374,6 +10368,10 @@
 		(uuid "009d1f50-c54e-4620-9ba6-24ec28ef1af0")
 	)
 	(no_connect
+		(at 44.45 146.05)
+		(uuid "1a8da7f2-4d56-4406-abd6-63151b776348")
+	)
+	(no_connect
 		(at 39.37 252.73)
 		(uuid "25e5b97a-098c-4cbc-9848-3f7be801f306")
 	)
@@ -10408,6 +10406,10 @@
 	(no_connect
 		(at 276.86 80.01)
 		(uuid "7df6b685-d21b-4569-8fcd-e2e8b6fa2697")
+	)
+	(no_connect
+		(at 44.45 148.59)
+		(uuid "83207fd1-3bd9-4b2a-82ce-b031746087d1")
 	)
 	(no_connect
 		(at 128.27 66.04)
@@ -10462,16 +10464,6 @@
 			(type default)
 		)
 		(uuid "0042f6e5-55fc-4776-83b2-eb79068c0ce9")
-	)
-	(wire
-		(pts
-			(xy 27.94 128.27) (xy 22.86 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "004f978a-954a-4d8c-9c03-209e6d0337f1")
 	)
 	(wire
 		(pts
@@ -10685,16 +10677,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 148.59) (xy 22.86 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08bfa55c-9b87-441a-b6b0-13f5710e84cd")
-	)
-	(wire
-		(pts
 			(xy 191.77 167.64) (xy 191.77 151.13)
 		)
 		(stroke
@@ -10782,16 +10764,6 @@
 			(type default)
 		)
 		(uuid "0c57a1b3-77ce-4c4a-a8a4-05d08468ee93")
-	)
-	(wire
-		(pts
-			(xy 44.45 148.59) (xy 22.86 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0da669c4-f4fd-4105-a093-eff16c8f6745")
 	)
 	(wire
 		(pts
@@ -10925,6 +10897,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 148.59) (xy 17.78 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13e48f7d-fe15-45f9-b9e9-85b6f6c9c655")
+	)
+	(wire
+		(pts
 			(xy 115.57 45.72) (xy 115.57 44.45)
 		)
 		(stroke
@@ -10942,16 +10924,6 @@
 			(type default)
 		)
 		(uuid "14c708be-fd89-4fab-a4a3-04374fea473d")
-	)
-	(wire
-		(pts
-			(xy 185.42 219.71) (xy 185.42 220.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15080f63-afbf-4d18-919c-9ed717ebca2f")
 	)
 	(wire
 		(pts
@@ -11265,7 +11237,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 128.27) (xy 17.78 128.27)
+			(xy 17.78 128.27) (xy 33.02 128.27)
 		)
 		(stroke
 			(width 0)
@@ -11312,6 +11284,16 @@
 			(type default)
 		)
 		(uuid "27ff0071-f41e-4ca5-ae46-0d47b5aa8c54")
+	)
+	(wire
+		(pts
+			(xy 41.91 140.97) (xy 38.1 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28552163-21db-4f50-b571-ef954c012e65")
 	)
 	(wire
 		(pts
@@ -11512,16 +11494,6 @@
 			(type default)
 		)
 		(uuid "3223aba8-cbc3-44d9-9c4f-2d173bcda338")
-	)
-	(wire
-		(pts
-			(xy 179.07 227.33) (xy 185.42 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32253686-4b85-4449-a9e6-ed17e447582b")
 	)
 	(wire
 		(pts
@@ -11755,6 +11727,16 @@
 	)
 	(wire
 		(pts
+			(xy 15.24 148.59) (xy 17.78 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6bcd93-f01a-49a1-b91b-e7044303f9a0")
+	)
+	(wire
+		(pts
 			(xy 128.27 53.34) (xy 128.27 54.61)
 		)
 		(stroke
@@ -11772,16 +11754,6 @@
 			(type default)
 		)
 		(uuid "3f8fc2ee-dc3f-4f76-a8ab-058a6be5f3ef")
-	)
-	(wire
-		(pts
-			(xy 33.02 128.27) (xy 27.94 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41976334-c1bb-48f9-9ff4-2a1b0c445a99")
 	)
 	(wire
 		(pts
@@ -12225,6 +12197,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 135.89) (xy 41.91 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62a179c0-8310-4ff3-ad3d-2f0f0d75224c")
+	)
+	(wire
+		(pts
 			(xy 257.81 236.22) (xy 257.81 240.03)
 		)
 		(stroke
@@ -12272,16 +12254,6 @@
 			(type default)
 		)
 		(uuid "65acad67-307a-4756-8f09-f30f29e63dd4")
-	)
-	(wire
-		(pts
-			(xy 27.94 146.05) (xy 27.94 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65ec62f7-69f8-4156-bbc1-87f772a40011")
 	)
 	(wire
 		(pts
@@ -12462,16 +12434,6 @@
 			(type default)
 		)
 		(uuid "6f1caf85-c2e6-443a-b034-9d7a08151d60")
-	)
-	(wire
-		(pts
-			(xy 22.86 137.16) (xy 22.86 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f8e50cf-6047-4b35-950f-950a06d821e3")
 	)
 	(wire
 		(pts
@@ -12685,6 +12647,16 @@
 	)
 	(wire
 		(pts
+			(xy 15.24 154.94) (xy 15.24 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c0e2ad4-82b9-43e2-b389-ce8777f4eafb")
+	)
+	(wire
+		(pts
 			(xy 269.24 148.59) (xy 270.51 148.59)
 		)
 		(stroke
@@ -12815,7 +12787,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 227.33) (xy 200.66 227.33)
+			(xy 179.07 227.33) (xy 200.66 227.33)
 		)
 		(stroke
 			(width 0)
@@ -12942,16 +12914,6 @@
 			(type default)
 		)
 		(uuid "8985349c-8aff-4b61-bfdf-15e2d565b2dc")
-	)
-	(wire
-		(pts
-			(xy 44.45 146.05) (xy 27.94 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89901ba3-a4aa-4f65-80f3-5d3c1a8a7d7e")
 	)
 	(wire
 		(pts
@@ -13402,6 +13364,16 @@
 			(type default)
 		)
 		(uuid "9e723f2d-44e2-44e5-8251-fa4f473957ba")
+	)
+	(wire
+		(pts
+			(xy 48.26 135.89) (xy 41.91 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e877cc1-4882-4ed2-9494-e83182b6a697")
 	)
 	(wire
 		(pts
@@ -14655,7 +14627,7 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 137.16) (xy 17.78 151.13)
+			(xy 17.78 137.16) (xy 17.78 148.59)
 		)
 		(stroke
 			(width 0)
@@ -14695,7 +14667,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 140.97) (xy 38.1 140.97)
+			(xy 44.45 140.97) (xy 41.91 140.97)
 		)
 		(stroke
 			(width 0)
@@ -14822,16 +14794,6 @@
 			(type default)
 		)
 		(uuid "ea0b8c53-646f-4dae-b41b-7687fddc8cbf")
-	)
-	(wire
-		(pts
-			(xy 185.42 226.06) (xy 185.42 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea409775-edca-41a8-a462-0fe38e0582d7")
 	)
 	(wire
 		(pts
@@ -15052,16 +15014,6 @@
 			(type default)
 		)
 		(uuid "f499ec99-c104-4266-9956-8d479bfaa31a")
-	)
-	(wire
-		(pts
-			(xy 27.94 132.08) (xy 27.94 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5762e9c-e143-4dcd-9f8d-af910bd6749b")
 	)
 	(wire
 		(pts
@@ -18844,7 +18796,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 251.46 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -21460,7 +21412,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 228.6 257.81 0)
 			(hide yes)
 			(show_name no)
@@ -21563,7 +21515,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 285.75 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -23731,6 +23683,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 15.24 154.94 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4386cc80-bd51-4b15-8e3b-8a7f917b9366")
+		(property "Reference" "#PWR038"
+			(at 15.24 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 15.24 160.274 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 15.24 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 15.24 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 15.24 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e55e7ea-f937-46a7-b9b5-3d9da1d81a58")
+		)
+		(instances
+			(project "LoRa-Phone"
+				(path "/fff46893-0699-4aa5-a494-28eece10d711"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 281.94 218.44 90)
 		(unit 1)
@@ -25808,7 +25837,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 237.49 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -26187,107 +26216,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 185.42 223.52 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "653b994a-583c-41d4-8439-6154b0a491b3")
-		(property "Reference" "R91"
-			(at 181.61 222.504 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 181.61 224.536 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 185.42 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 185.42 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 185.42 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 185.42 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a1e6b7d9-ca96-400b-a196-6b954598c165")
-		)
-		(pin "1"
-			(uuid "a77c3a5d-7eb4-4cdc-ae10-cb4421d6ea33")
-		)
-		(instances
-			(project "LoRa-Phone"
-				(path "/fff46893-0699-4aa5-a494-28eece10d711"
-					(reference "R91")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 139.7 130.81 180)
 		(unit 1)
@@ -26385,109 +26313,6 @@
 			(project "LoRa-Phone"
 				(path "/fff46893-0699-4aa5-a494-28eece10d711"
 					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 22.86 139.7 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "662c2745-69b7-46c0-98f0-9721ab612c64")
-		(property "Reference" "C17"
-			(at 21.336 134.62 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 21.59 140.97 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 22.86 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 22.86 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 22.86 139.7 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 22.86 139.7 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a2de22cb-7b93-40bb-9ff3-9536359ac934")
-		)
-		(pin "2"
-			(uuid "78d55712-a5f6-4f91-937a-e1572568031d")
-		)
-		(instances
-			(project "LoRa-Phone"
-				(path "/fff46893-0699-4aa5-a494-28eece10d711"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -27307,83 +27132,6 @@
 			(project "LoRa-Phone"
 				(path "/fff46893-0699-4aa5-a494-28eece10d711"
 					(reference "R81")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 185.42 219.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7712fa2c-f041-4dab-a92d-bff51e663fbc")
-		(property "Reference" "#PWR0144"
-			(at 185.42 223.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 185.42 215.392 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 185.42 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3d007896-f329-4335-9508-4a1a72c78e99")
-		)
-		(instances
-			(project "LoRa-Phone"
-				(path "/fff46893-0699-4aa5-a494-28eece10d711"
-					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -28330,7 +28078,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 237.49 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -29693,7 +29441,7 @@
 		(dnp no)
 		(uuid "9cb9515e-51ee-4c16-8018-b4432d7c163a")
 		(property "Reference" "C38"
-			(at 45.72 133.35 0)
+			(at 45.72 131.826 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29704,7 +29452,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 45.72 135.89 0)
+			(at 45.72 134.366 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31512,7 +31260,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 228.6 254 0)
 			(hide yes)
 			(show_name no)
@@ -32093,7 +31841,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 180.34 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -33857,7 +33605,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 194.31 271.78 0)
 			(hide yes)
 			(show_name no)
@@ -34461,109 +34209,6 @@
 			(project "LoRa-Phone"
 				(path "/fff46893-0699-4aa5-a494-28eece10d711"
 					(reference "FB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 27.94 134.62 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c82c0de7-3289-45c1-9a2b-42e80996e471")
-		(property "Reference" "C36"
-			(at 26.416 129.794 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7uF"
-			(at 26.416 135.89 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 27.94 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 27.94 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 27.94 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 27.94 134.62 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0998a3d5-119a-4bc9-9b52-fece4278a25c")
-		)
-		(pin "2"
-			(uuid "13191cb7-f263-40c0-a720-848e0668dfc0")
-		)
-		(instances
-			(project "LoRa-Phone"
-				(path "/fff46893-0699-4aa5-a494-28eece10d711"
-					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -35373,7 +35018,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 180.34 251.46 0)
 			(hide yes)
 			(show_name no)
@@ -36936,7 +36581,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 285.75 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -37752,6 +37397,83 @@
 			(project "LoRa-Phone"
 				(path "/fff46893-0699-4aa5-a494-28eece10d711"
 					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 48.26 135.89 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fb173e7b-d8e9-4eed-9588-c9540c67863d")
+		(property "Reference" "#PWR039"
+			(at 44.45 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 53.594 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 48.26 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "031d0b36-1fcf-48c6-a1fd-ba98810e3e9a")
+		)
+		(instances
+			(project "LoRa-Phone"
+				(path "/fff46893-0699-4aa5-a494-28eece10d711"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)

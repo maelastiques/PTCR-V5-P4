@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 3.8,
-          "width": 3.8
+          "height": 0.3,
+          "width": 1.025
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -227,6 +227,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": true
@@ -500,7 +504,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1524,
+        "clearance": 0.2032,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -511,17 +515,26 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1524,
+        "track_width": 0.2032,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
+        "clearance": 0.5,
+        "name": "ANALOG",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1524,
+        "tuning_profile": ""
+      },
+      {
         "clearance": 0.4064,
         "name": "POWER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4064,
         "tuning_profile": "",
@@ -530,9 +543,22 @@
       },
       {
         "clearance": 0.508,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.3,
         "name": "RF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3292,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.1,
+        "name": "RF_NOGND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3292,
         "tuning_profile": ""
@@ -542,7 +568,7 @@
         "microvia_diameter": 0.3,
         "name": "SIGNAL",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1016,
         "tuning_profile": "",
@@ -583,6 +609,18 @@
       {
         "netclass": "RF",
         "pattern": "REV_OUT"
+      },
+      {
+        "netclass": "RF_NOGND",
+        "pattern": "Net-(IC?-IN*"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "*3V3*"
+      },
+      {
+        "netclass": "ANALOG",
+        "pattern": "MONO_OUT"
       }
     ]
   },
@@ -858,7 +896,7 @@
         "uuid": "fff46893-0699-4aa5-a494-28eece10d711"
       }
     ],
-    "used_designators": "HY1,L2,AE1,AE4-6,R70,R74-80,R83-97,M1,J1,J4,J6,C3,C5-8,C16-17,C23-29,C36-40,C87,C89-114,FB1-2,U2-4,U6,U10-11,U13,U21,U23-24,TP2,TP4,#PWR7,#PWR10,#PWR17,#PWR32,#PWR36-37,#PWR50-51,#PWR53,#PWR67-72,#PWR83-85,#PWR89-101,#PWR106,#PWR135,#PWR137-186,#PWR241-244,#PWR255-260,IC1-3",
+    "used_designators": "#PWR38-39",
     "variants": []
   },
   "sheets": [
