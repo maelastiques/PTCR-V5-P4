@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/Users/maelastiques/PTCR-V5-P4/mcu.kicad_sch")
-		(date "2026-06-19T20:00:41")
+		(date "2026-06-19T19:03:49")
 		(tool "Eeschema 10.0.0")
 		(sheet
 			(number "1")
@@ -5153,72 +5153,6 @@
 			)
 		)
 		(comp
-			(ref "D8")
-			(value "D")
-			(footprint "Diode_SMD:D_SOD-523")
-			(description "Diode")
-			(fields
-				(field
-					(name "Sim.Device") "D")
-				(field
-					(name "Sim.Pins") "1=K 2=A")
-				(field
-					(name "Footprint") "Diode_SMD:D_SOD-523")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Diode")
-			)
-			(libsource
-				(lib "Device")
-				(part "D")
-				(description "Diode")
-			)
-			(property
-				(name "Sim.Device")
-				(value "D")
-			)
-			(property
-				(name "Sim.Pins")
-				(value "1=K 2=A")
-			)
-			(property
-				(name "Sheetname")
-				(value "MAIN")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mcu.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "diode")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "TO-???* *_Diode_* *SingleDiode* D_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "84235ebc-327d-452e-94ad-070e1feee6f5")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
 			(ref "FB1")
 			(value "600R @100MHz 1A")
 			(footprint "Inductor_SMD:L_0603_1608Metric")
@@ -6938,7 +6872,7 @@
 			)
 		)
 		(comp
-			(ref "Q1")
+			(ref "Q2")
 			(value "AO3400A")
 			(footprint "Package_TO_SOT_SMD:SOT-23")
 			(datasheet "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf")
@@ -6976,7 +6910,64 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "65c803eb-525e-438f-aa32-d843d429f4f2")
+			(tstamps "8a48b1f8-1960-45e8-9d9d-5f6a3c119058")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q3")
+			(value "AO3400A")
+			(footprint "Package_TO_SOT_SMD:SOT-23")
+			(datasheet "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf")
+			(description "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23")
+			(fields
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet") "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf")
+				(field
+					(name "Description") "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23")
+			)
+			(libsource
+				(lib "Transistor_FET")
+				(part "AO3400A")
+				(description "N-MOSFET transistor, gate/source/drain")
+			)
+			(property
+				(name "Sheetname")
+				(value "MAIN")
+			)
+			(property
+				(name "Sheetfile")
+				(value "mcu.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "N-Channel MOSFET")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SOT?23*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9987318f-7771-4588-af2e-fdd16bee050d")
 			(units
 				(unit
 					(name "A")
@@ -11253,7 +11244,7 @@
 		)
 		(comp
 			(ref "R129")
-			(value "10K")
+			(value "51.1K")
 			(footprint "Resistor_SMD:R_0402_1005Metric")
 			(description "Resistor, small US symbol")
 			(fields
@@ -11311,7 +11302,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "0be93a9d-88fa-4d13-9024-8aca695ef49b")
+			(tstamps "a85e7db3-a5a0-4044-9d28-ab83c246be8a")
 			(units
 				(unit
 					(name "A")
@@ -11462,156 +11453,6 @@
 				(tstamps "/")
 			)
 			(tstamps "57c0e8dd-6c82-4bfd-8ca7-c2c9d03032f0")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R132")
-			(value "10K")
-			(footprint "Resistor_SMD:R_0402_1005Metric")
-			(description "Resistor, small US symbol")
-			(fields
-				(field
-					(name "Sim.Device")
-				)
-				(field
-					(name "Sim.Pins")
-				)
-				(field
-					(name "Description_1")
-				)
-				(field
-					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Resistor, small US symbol")
-			)
-			(libsource
-				(lib "Device")
-				(part "R_Small_US")
-				(description "Resistor, small US symbol")
-			)
-			(property
-				(name "Sim.Device")
-				(value "")
-			)
-			(property
-				(name "Sim.Pins")
-				(value "")
-			)
-			(property
-				(name "Description_1")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "MAIN")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mcu.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "r resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "495faa49-920b-4d51-9c7a-26825d262f02")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R133")
-			(value "51.1K")
-			(footprint "Resistor_SMD:R_0402_1005Metric")
-			(description "Resistor, small US symbol")
-			(fields
-				(field
-					(name "Sim.Device")
-				)
-				(field
-					(name "Sim.Pins")
-				)
-				(field
-					(name "Description_1")
-				)
-				(field
-					(name "Footprint") "Resistor_SMD:R_0402_1005Metric")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Resistor, small US symbol")
-			)
-			(libsource
-				(lib "Device")
-				(part "R_Small_US")
-				(description "Resistor, small US symbol")
-			)
-			(property
-				(name "Sim.Device")
-				(value "")
-			)
-			(property
-				(name "Sim.Pins")
-				(value "")
-			)
-			(property
-				(name "Description_1")
-				(value "")
-			)
-			(property
-				(name "Sheetname")
-				(value "MAIN")
-			)
-			(property
-				(name "Sheetfile")
-				(value "mcu.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "r resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "c14641d2-d220-4191-8127-a127b1e1dc3c")
 			(units
 				(unit
 					(name "A")
@@ -15709,47 +15550,6 @@
 		)
 		(libpart
 			(lib "Device")
-			(part "D")
-			(description "Diode")
-			(footprints
-				(fp "TO-???*")
-				(fp "*_Diode_*")
-				(fp "*SingleDiode*")
-				(fp "D_*")
-			)
-			(fields
-				(field
-					(name "Reference") "D")
-				(field
-					(name "Value") "D")
-				(field
-					(name "Footprint")
-				)
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Diode")
-				(field
-					(name "Sim.Device") "D")
-				(field
-					(name "Sim.Pins") "1=K 2=A")
-			)
-			(pins
-				(pin
-					(num "1")
-					(name "K")
-					(type "passive")
-				)
-				(pin
-					(num "2")
-					(name "A")
-					(type "passive")
-				)
-			)
-		)
-		(libpart
-			(lib "Device")
 			(part "D_TVS")
 			(description "Bidirectional transient-voltage-suppression diode")
 			(footprints
@@ -18457,7 +18257,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R131")
+				(ref "R129")
 				(pin "1")
 				(pintype "passive")
 			)
@@ -18520,12 +18320,6 @@
 				(ref "U15")
 				(pin "8")
 				(pinfunction "A1_8")
-				(pintype "input")
-			)
-			(node
-				(ref "U16")
-				(pin "2")
-				(pinfunction "IN-_2")
 				(pintype "input")
 			)
 			(node
@@ -18617,7 +18411,7 @@
 			)
 			(node
 				(ref "R130")
-				(pin "1")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
@@ -18633,8 +18427,8 @@
 			)
 			(node
 				(ref "U15")
-				(pin "2")
-				(pinfunction "IN-_2")
+				(pin "1")
+				(pinfunction "IN+_1")
 				(pintype "input")
 			)
 		)
@@ -18649,7 +18443,7 @@
 			)
 			(node
 				(ref "R130")
-				(pin "2")
+				(pin "1")
 				(pintype "passive")
 			)
 			(node
@@ -18660,8 +18454,8 @@
 			)
 			(node
 				(ref "U15")
-				(pin "1")
-				(pinfunction "IN+_1")
+				(pin "2")
+				(pinfunction "IN-_2")
 				(pintype "input")
 			)
 		)
@@ -18727,7 +18521,7 @@
 			)
 			(node
 				(ref "R127")
-				(pin "1")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node
@@ -18738,8 +18532,8 @@
 			)
 			(node
 				(ref "U14")
-				(pin "2")
-				(pinfunction "IN-_2")
+				(pin "1")
+				(pinfunction "IN+_1")
 				(pintype "input")
 			)
 			(node
@@ -18778,7 +18572,7 @@
 			)
 			(node
 				(ref "R127")
-				(pin "2")
+				(pin "1")
 				(pintype "passive")
 			)
 			(node
@@ -18789,8 +18583,8 @@
 			)
 			(node
 				(ref "U14")
-				(pin "1")
-				(pinfunction "IN+_1")
+				(pin "2")
+				(pinfunction "IN-_2")
 				(pintype "input")
 			)
 		)
@@ -18812,6 +18606,11 @@
 			)
 			(node
 				(ref "R131")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R131")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -18819,6 +18618,12 @@
 				(ref "U16")
 				(pin "1")
 				(pinfunction "IN+_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U16")
+				(pin "2")
+				(pinfunction "IN-_2")
 				(pintype "input")
 			)
 			(node
@@ -19396,16 +19201,6 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R129")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R133")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
 				(ref "U11")
 				(pin "6")
 				(pinfunction "V_BCKP_6")
@@ -19426,11 +19221,6 @@
 				(ref "IC4")
 				(pin "3")
 				(pinfunction "CP2_3")
-				(pintype "passive")
-			)
-			(node
-				(ref "R132")
-				(pin "1")
 				(pintype "passive")
 			)
 			(node
@@ -20961,7 +20751,13 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "Q1")
+				(ref "Q2")
+				(pin "2")
+				(pinfunction "S_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q3")
 				(pin "2")
 				(pinfunction "S_2")
 				(pintype "passive")
@@ -21014,11 +20810,6 @@
 			(node
 				(ref "R116")
 				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R132")
-				(pin "2")
 				(pintype "passive")
 			)
 			(node
@@ -21658,10 +21449,10 @@
 			(name "INT_RTC")
 			(class "Default")
 			(node
-				(ref "D8")
-				(pin "2")
-				(pinfunction "A_2")
-				(pintype "passive")
+				(ref "Q2")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "input")
 			)
 			(node
 				(ref "U12")
@@ -22249,7 +22040,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "Q1")
+				(ref "Q4")
 				(pin "1")
 				(pinfunction "G_1")
 				(pintype "input")
@@ -22257,6 +22048,35 @@
 		)
 		(net
 			(code "119")
+			(name "Net-(IC8-~{PB_IN})")
+			(class "Default")
+			(node
+				(ref "IC8")
+				(pin "1")
+				(pinfunction "~{PB_IN}_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q2")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q3")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW1")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "120")
 			(name "Net-(J4-Pin_1)")
 			(class "Default")
 			(node
@@ -22273,7 +22093,7 @@
 			)
 		)
 		(net
-			(code "120")
+			(code "121")
 			(name "Net-(M1-+)")
 			(class "Default")
 			(node
@@ -22290,7 +22110,7 @@
 			)
 		)
 		(net
-			(code "121")
+			(code "122")
 			(name "Net-(M1--)")
 			(class "Default")
 			(node
@@ -22304,28 +22124,6 @@
 				(pin "9")
 				(pinfunction "OUT-_9")
 				(pintype "output")
-			)
-		)
-		(net
-			(code "122")
-			(name "Net-(Q1-D)")
-			(class "Default")
-			(node
-				(ref "Q1")
-				(pin "3")
-				(pinfunction "D_3")
-				(pintype "passive")
-			)
-			(node
-				(ref "Q4")
-				(pin "1")
-				(pinfunction "G_1")
-				(pintype "input")
-			)
-			(node
-				(ref "R133")
-				(pin "1")
-				(pintype "passive")
 			)
 		)
 		(net
@@ -22807,26 +22605,14 @@
 			(name "POWER_BTN")
 			(class "Default")
 			(node
-				(ref "D8")
+				(ref "Q3")
 				(pin "1")
-				(pinfunction "K_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "IC8")
-				(pin "1")
-				(pinfunction "~{PB_IN}_1")
-				(pintype "passive")
+				(pinfunction "G_1")
+				(pintype "input")
 			)
 			(node
 				(ref "R129")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "SW1")
-				(pin "1")
-				(pinfunction "1_1")
+				(pin "2")
 				(pintype "passive")
 			)
 			(node

@@ -59661,7 +59661,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "51.1K"
 			(at 45.72 270.002 90)
 			(show_name no)
 			(do_not_autoplace no)
