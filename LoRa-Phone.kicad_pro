@@ -195,7 +195,11 @@
       ],
       "track_widths": [
         0.0,
-        0.0
+        0.1016,
+        0.1524,
+        0.2032,
+        0.254,
+        0.3048
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -227,6 +231,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.3
         },
         {
           "diameter": 0.6,
@@ -531,12 +539,12 @@
         "tuning_profile": ""
       },
       {
-        "clearance": 0.4064,
+        "clearance": 0.2032,
         "name": "POWER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4064,
+        "track_width": 0.3048,
         "tuning_profile": "",
         "via_diameter": 0.5,
         "via_drill": 0.3
@@ -894,15 +902,24 @@
         "filename": "mcu.kicad_sch",
         "name": "MAIN",
         "uuid": "fff46893-0699-4aa5-a494-28eece10d711"
+      },
+      {
+        "filename": "misc.kicad_sch",
+        "name": "MISC",
+        "uuid": "199ef378-d3bc-4e99-ad5b-294243784cde"
       }
     ],
-    "used_designators": "#PWR38-39",
+    "used_designators": "U7-9,TP5,BT1-2,IC4-7,R91,R98-124,FB3,#PWR3-5,#PWR11-16,#PWR19-21,#PWR40-46,#PWR73-76,#PWR88,#PWR102-105,#PWR107-134,#PWR136,#PWR139,#PWR142-144,C9,C30-31,C94,C97-98,C115-121,D1-6,J3-4",
     "variants": []
   },
   "sheets": [
     [
       "fff46893-0699-4aa5-a494-28eece10d711",
       "MAIN"
+    ],
+    [
+      "199ef378-d3bc-4e99-ad5b-294243784cde",
+      "MISC"
     ]
   ],
   "text_variables": {},
