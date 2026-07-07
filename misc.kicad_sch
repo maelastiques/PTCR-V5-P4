@@ -2222,145 +2222,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -2482,6 +2343,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10db0f91-9b84-40a9-b12c-8a182be84ea7")
+	)
+	(junction
+		(at 40.64 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d197bf9-6dde-40ac-b402-fc793745ec63")
 	)
 	(no_connect
 		(at 81.28 48.26)
@@ -2633,6 +2500,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 73.66) (xy 40.64 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39279d74-19cc-4f66-a659-7ece81dce9fa")
+	)
+	(wire
+		(pts
 			(xy 45.72 90.17) (xy 45.72 88.9)
 		)
 		(stroke
@@ -2700,6 +2577,16 @@
 			(type default)
 		)
 		(uuid "40eae924-e1ff-470e-8563-9a51a9b34b5f")
+	)
+	(wire
+		(pts
+			(xy 40.64 72.39) (xy 40.64 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44e01632-93b3-44e1-8726-4735325517c6")
 	)
 	(wire
 		(pts
@@ -2903,7 +2790,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 74.93) (xy 43.18 76.2)
+			(xy 43.18 73.66) (xy 43.18 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3053,6 +2940,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 73.66) (xy 40.64 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0d44a68-33c1-44c2-99ed-d90866270aaa")
+	)
+	(wire
+		(pts
 			(xy 55.88 88.9) (xy 55.88 90.17)
 		)
 		(stroke
@@ -3093,6 +2990,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 73.66) (xy 40.64 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d51782cd-97f8-4173-98c4-76d8d17849ce")
+	)
+	(wire
+		(pts
 			(xy 161.29 97.79) (xy 158.75 97.79)
 		)
 		(stroke
@@ -3103,7 +3010,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 74.93) (xy 38.1 76.2)
+			(xy 38.1 73.66) (xy 38.1 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3140,16 +3047,6 @@
 			(type default)
 		)
 		(uuid "ddd5535b-f576-4881-baec-0bdad51a42e1")
-	)
-	(wire
-		(pts
-			(xy 40.64 74.93) (xy 40.64 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e26f32d1-ba3c-432b-9d63-eae3428a8468")
 	)
 	(wire
 		(pts
@@ -3835,6 +3732,30 @@
 			)
 		)
 	)
+	(global_label "BAT_OUT"
+		(shape input)
+		(at 40.64 72.39 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9bb01acd-f1e9-4f5a-baa3-0e1df30eb395")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 40.64 61.4824 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "ROT_ENC1_B"
 		(shape input)
 		(at 48.26 90.17 270)
@@ -4395,83 +4316,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 43.18 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "27ae8dcf-6660-45d8-9f7f-4f66c5427944")
-		(property "Reference" "#PWR028"
-			(at 43.18 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V_B"
-			(at 43.18 69.85 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 43.18 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a9e0672c-2654-499a-9939-36564cc7025e")
-		)
-		(instances
-			(project "LoRa-Phone"
-				(path "/199ef378-d3bc-4e99-ad5b-294243784cde"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 161.29 97.79 270)
 		(unit 1)
@@ -4778,83 +4622,6 @@
 			(project "LoRa-Phone"
 				(path "/199ef378-d3bc-4e99-ad5b-294243784cde"
 					(reference "U19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 40.64 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "43868719-8b43-4dbf-badd-bfd427a02aaf")
-		(property "Reference" "#PWR016"
-			(at 40.64 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V_B"
-			(at 40.64 69.85 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 40.64 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "86e8c2f6-feed-424b-ad9a-f5583a50521c")
-		)
-		(instances
-			(project "LoRa-Phone"
-				(path "/199ef378-d3bc-4e99-ad5b-294243784cde"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5343,83 +5110,6 @@
 			(project "LoRa-Phone"
 				(path "/199ef378-d3bc-4e99-ad5b-294243784cde"
 					(reference "#PWR0233")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 38.1 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7b371286-213e-44b9-9593-ca8d321ce2ff")
-		(property "Reference" "#PWR011"
-			(at 38.1 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V_B"
-			(at 38.1 69.85 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 38.1 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "585f0572-7896-4f14-9cd5-885781a677bd")
-		)
-		(instances
-			(project "LoRa-Phone"
-				(path "/199ef378-d3bc-4e99-ad5b-294243784cde"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)

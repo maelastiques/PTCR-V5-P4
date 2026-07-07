@@ -15793,6 +15793,12 @@
 		(uuid "9a41e879-0023-444a-a46f-d8fc5bf03579")
 	)
 	(junction
+		(at 369.57 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cdca525-9c7e-4473-a73e-21c9828e5216")
+	)
+	(junction
 		(at 110.49 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -17502,16 +17508,6 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 146.05) (xy 372.11 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e1f9f67-ef01-404e-8444-ef3f02c16ab4")
-	)
-	(wire
-		(pts
 			(xy 349.25 374.65) (xy 349.25 387.35)
 		)
 		(stroke
@@ -17942,6 +17938,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 144.78) (xy 367.03 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c0303f5-0c6b-4d1a-a733-f3dae4b65525")
+	)
+	(wire
+		(pts
 			(xy 435.61 91.44) (xy 436.88 91.44)
 		)
 		(stroke
@@ -18039,6 +18045,16 @@
 			(type default)
 		)
 		(uuid "2dfe6be0-16e1-433e-828f-272a88f636be")
+	)
+	(wire
+		(pts
+			(xy 372.11 144.78) (xy 372.11 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f135840-62ab-4796-aa82-3c794dec40aa")
 	)
 	(wire
 		(pts
@@ -18319,16 +18335,6 @@
 			(type default)
 		)
 		(uuid "350ce539-8238-4082-b3ef-5845c2ea4e1b")
-	)
-	(wire
-		(pts
-			(xy 367.03 146.05) (xy 367.03 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3586f41a-ae1a-4e5c-85df-ba8ceeb97290")
 	)
 	(wire
 		(pts
@@ -18962,7 +18968,7 @@
 	)
 	(wire
 		(pts
-			(xy 369.57 146.05) (xy 369.57 147.32)
+			(xy 369.57 143.51) (xy 369.57 144.78)
 		)
 		(stroke
 			(width 0)
@@ -20059,6 +20065,16 @@
 			(type default)
 		)
 		(uuid "6ad93dc7-7230-48be-88c1-b07dcc4cc1eb")
+	)
+	(wire
+		(pts
+			(xy 372.11 144.78) (xy 369.57 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b60c5bd-34f7-4c5a-92fc-d89fc6fb22c3")
 	)
 	(wire
 		(pts
@@ -22042,6 +22058,16 @@
 	)
 	(wire
 		(pts
+			(xy 369.57 144.78) (xy 369.57 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9856dafb-a1d9-4645-9b64-fda6e8883236")
+	)
+	(wire
+		(pts
 			(xy 245.11 332.74) (xy 252.73 332.74)
 		)
 		(stroke
@@ -22959,6 +22985,16 @@
 			(type default)
 		)
 		(uuid "ab4f9b16-b1d1-4a74-a6db-d671533bd681")
+	)
+	(wire
+		(pts
+			(xy 367.03 144.78) (xy 369.57 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abeb62d2-1d38-4da9-bad3-a6a36a3500fd")
 	)
 	(wire
 		(pts
@@ -29143,7 +29179,7 @@
 			)
 		)
 	)
-	(global_label "SDA"
+	(global_label "SDA_B"
 		(shape input)
 		(at 181.61 257.81 0)
 		(fields_autoplaced yes)
@@ -29155,7 +29191,7 @@
 		)
 		(uuid "6da3765e-4d2a-4d29-a88b-8ddea99c1cf0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.1633 257.81 0)
+			(at 190.4009 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31782,7 +31818,7 @@
 			)
 		)
 	)
-	(global_label "SCL"
+	(global_label "SCL_B"
 		(shape input)
 		(at 181.61 260.35 0)
 		(fields_autoplaced yes)
@@ -31794,7 +31830,7 @@
 		)
 		(uuid "d514cc58-ab61-49e3-b041-40556f84e1b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.1028 260.35 0)
+			(at 190.3404 260.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32307,6 +32343,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "BAT_OUT"
+		(shape input)
+		(at 369.57 143.51 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1f1e5b3-6e1c-4ea7-b767-241193362faa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 369.57 132.6024 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -36638,83 +36698,6 @@
 			(project "LoRa-Phone"
 				(path "/fff46893-0699-4aa5-a494-28eece10d711"
 					(reference "R84")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 369.57 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "19e78610-8b3e-4314-bdcb-3b646d87ff39")
-		(property "Reference" "#PWR014"
-			(at 369.57 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 369.57 140.97 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 369.57 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 369.57 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 369.57 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "38f3ca44-ac31-4a64-8623-fa8f7409aecf")
-		)
-		(instances
-			(project "LoRa-Phone"
-				(path "/fff46893-0699-4aa5-a494-28eece10d711"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -53800,83 +53783,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 367.03 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "87c2cec3-bd77-47f3-9cfe-c16be5b3f78f")
-		(property "Reference" "#PWR09"
-			(at 367.03 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 367.03 140.97 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 367.03 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 367.03 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 367.03 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2f721ef8-174d-4e19-83e3-77090b85e5eb")
-		)
-		(instances
-			(project "LoRa-Phone"
-				(path "/fff46893-0699-4aa5-a494-28eece10d711"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PTCR-V5:TPS22965NTDSGRQ1")
 		(at 458.47 96.52 0)
 		(unit 1)
@@ -60804,83 +60710,6 @@
 			(project "LoRa-Phone"
 				(path "/fff46893-0699-4aa5-a494-28eece10d711"
 					(reference "C105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 372.11 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ae8c1870-866d-4992-bd33-0d658822d946")
-		(property "Reference" "#PWR015"
-			(at 372.11 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 372.11 140.97 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 372.11 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 372.11 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 372.11 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b4349ff2-525f-4b0a-a014-80e5f31755d3")
-		)
-		(instances
-			(project "LoRa-Phone"
-				(path "/fff46893-0699-4aa5-a494-28eece10d711"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
