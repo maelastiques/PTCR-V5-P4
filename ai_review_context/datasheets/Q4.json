@@ -1,0 +1,9 @@
+{
+  "ref": "Q4",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "AO3401A",
+    "Package_TO_SOT_SMD:SOT-23"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "ref": "IC7",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "TCA9543ADR",
+    "PTCR:SOIC127P600X175-14N"
+  ]
+}

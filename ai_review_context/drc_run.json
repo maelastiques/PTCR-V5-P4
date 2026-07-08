@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "returncode": 0,
+  "command": [
+    "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+    "pcb",
+    "drc",
+    "/Users/maelastiques/PTCR-V5-P4/LoRa-Phone.kicad_pcb",
+    "--output",
+    "/Users/maelastiques/PTCR-V5-P4/ai_review_context/drc_report.json",
+    "--format",
+    "json"
+  ],
+  "stdout": "Violations trouvées 983\nTrouvé 21 éléments non connectés\nRapport DRC sauvegardé en /Users/maelastiques/PTCR-V5-P4/ai_review_context/drc_report.json\n",
+  "stderr": "",
+  "report_path": "/Users/maelastiques/PTCR-V5-P4/ai_review_context/drc_report.json",
+  "report_exists": true,
+  "issue_count": 983
+}

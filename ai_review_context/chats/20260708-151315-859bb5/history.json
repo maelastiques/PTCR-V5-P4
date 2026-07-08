@@ -1,0 +1,38 @@
+[
+  {
+    "role": "user",
+    "content": "Salut ! Est-ce que tu peux écrire Bonjour sur la couche Top au dessus de mon PCB ?"
+  },
+  {
+    "role": "assistant",
+    "content": "",
+    "tool_calls": [
+      {
+        "id": "call_Qkc891Kqa0JyI62pqyisR93L",
+        "type": "function",
+        "function": {
+          "name": "execute_pcbnew_script",
+          "arguments": "{\"code\":\"import pcbnew\\nboard = board\\n# compute bounding box from footprints (robust)\\nfirst = True\\nxmin = ymin = xmax = ymax = 0\\nfor f in board.GetFootprints():\\n    try:\\n        bb = f.GetBoundingBox()\\n        left = bb.GetX()\\n        top = bb.GetY()\\n        right = left + bb.GetWidth()\\n        bottom = top + bb.GetHeight()\\n    except Exception:\\n        p = f.GetPosition()\\n        left = p.x\\n        top = p.y\\n        right = p.x\\n        bottom = p.y\\n    if first:\\n        xmin, ymin, xmax, ymax = left, top, right, bottom\\n        first = False\\n    else:\\n        xmin = min(xmin, left)\\n        ymin = min(ymin, top)\\n        xmax = max(xmax, right)\\n        ymax = max(ymax, bottom)\\n# fallback if no footprints\\nif first:\\n    xmin = pcbnew.FromMM(0)\\n    ymin = pcbnew.FromMM(0)\\n    xmax = pcbnew.FromMM(50)\\n    ymax = pcbnew.FromMM(80)\\n# place text centered horizontally, 3mm above topmost edge\\nx_center = (xmin + xmax) // 2\\ny_pos = ymin - pcbnew.FromMM(3)\\nif y_pos < 0:\\n    # if that would be negative, place 3mm below top instead\\n    y_pos = ymin + pcbnew.FromMM(3)\\n# create PCB_TEXT and add to F.SilkS\\ntext = pcbnew.PCB_TEXT(board)\\ntext.SetText(\\\"Bonjour\\\")\\ntry:\\n    text.SetPosition(pcbnew.wxPoint(int(x_center), int(y_pos)))\\nexcept Exception:\\n    text.SetPosition(pcbnew.VECTOR2I(int(x_center), int(y_pos)))\\ntext.SetLayer(pcbnew.F_SilkS)\\n# sizing\\ntext.SetTextHeight(pcbnew.FromMM(2.5))\\n# text width API can vary; set thickness if available\\ntry:\\n    text.SetTextWidth(pcbnew.FromMM(0.6))\\nexcept Exception:\\n    pass\\ntry:\\n    text.SetTextThickness(pcbnew.FromMM(0.3))\\nexcept Exception:\\n    pass\\n# center justification if available\\nfor fn in (\\\"SetHorizontalJustification\\\", \\\"SetHorizJustify\\\", \\\"SetJustify\\\"):\\n    try:\\n        getattr(text, fn)(pcbnew.GR_TEXT_JUSTIFY_CENTER)\\n        break\\n    except Exception:\\n        pass\\nboard.Add(text)\\nprint(\\\"PLACED_TEXT_MM\\\", pcbnew.ToMM(x_center), pcbnew.ToMM(y_pos))\\n\"}"
+        }
+      }
+    ],
+    "_hidden": true
+  },
+  {
+    "role": "tool",
+    "tool_call_id": "call_Qkc891Kqa0JyI62pqyisR93L",
+    "content": "PLACED_TEXT_MM 142.453375 36.31",
+    "_hidden": true
+  },
+  {
+    "role": "assistant",
+    "content": "Fait — j’ai placé le texte \"Bonjour\" sur la couche Top (F.SilkS) à 142.45 mm, 36.31 mm. [→ Bonjour in PCB](pcb://142.453375,36.31)",
+    "model": "",
+    "prompt_tokens": 9247,
+    "completion_tokens": 636,
+    "total_tokens": 9883,
+    "prompt_cost_usd": 0.0,
+    "completion_cost_usd": 0.0,
+    "total_cost_usd": 0.0
+  }
+]

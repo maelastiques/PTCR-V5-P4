@@ -1,0 +1,9 @@
+{
+  "ref": "AE6",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "SMA",
+    "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+  ]
+}

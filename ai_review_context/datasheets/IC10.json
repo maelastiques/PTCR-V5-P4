@@ -1,0 +1,9 @@
+{
+  "ref": "IC10",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "TPS22965NTDSGRQ1",
+    "PTCR:SON50P200X200X80-9N"
+  ]
+}

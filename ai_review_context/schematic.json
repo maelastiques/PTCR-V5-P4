@@ -1,0 +1,109 @@
+{
+  "files": [
+    {
+      "path": "/Users/maelastiques/PTCR-V5-P4/LoRa-Phone.kicad_sch",
+      "size_bytes": 367,
+      "symbols_count": 0,
+      "labels_count": 0,
+      "hierarchical_labels_count": 0,
+      "power_symbols_count": 0
+    },
+    {
+      "path": "/Users/maelastiques/PTCR-V5-P4/audio.kicad_sch",
+      "size_bytes": 451,
+      "symbols_count": 0,
+      "labels_count": 0,
+      "hierarchical_labels_count": 0,
+      "power_symbols_count": 0
+    },
+    {
+      "path": "/Users/maelastiques/PTCR-V5-P4/expander.kicad_sch",
+      "size_bytes": 63327,
+      "symbols_count": 16,
+      "labels_count": 0,
+      "hierarchical_labels_count": 0,
+      "power_symbols_count": 12
+    },
+    {
+      "path": "/Users/maelastiques/PTCR-V5-P4/inputs.kicad_sch",
+      "size_bytes": 452,
+      "symbols_count": 0,
+      "labels_count": 0,
+      "hierarchical_labels_count": 0,
+      "power_symbols_count": 0
+    },
+    {
+      "path": "/Users/maelastiques/PTCR-V5-P4/mcu.kicad_sch",
+      "size_bytes": 1205957,
+      "symbols_count": 105,
+      "labels_count": 0,
+      "hierarchical_labels_count": 0,
+      "power_symbols_count": 207
+    },
+    {
+      "path": "/Users/maelastiques/PTCR-V5-P4/memory.kicad_sch",
+      "size_bytes": 34373,
+      "symbols_count": 14,
+      "labels_count": 0,
+      "hierarchical_labels_count": 0,
+      "power_symbols_count": 7
+    },
+    {
+      "path": "/Users/maelastiques/PTCR-V5-P4/misc.kicad_sch",
+      "size_bytes": 111216,
+      "symbols_count": 16,
+      "labels_count": 0,
+      "hierarchical_labels_count": 0,
+      "power_symbols_count": 22
+    },
+    {
+      "path": "/Users/maelastiques/PTCR-V5-P4/outputs.kicad_sch",
+      "size_bytes": 453,
+      "symbols_count": 0,
+      "labels_count": 0,
+      "hierarchical_labels_count": 0,
+      "power_symbols_count": 0
+    },
+    {
+      "path": "/Users/maelastiques/PTCR-V5-P4/ports.kicad_sch",
+      "size_bytes": 781,
+      "symbols_count": 0,
+      "labels_count": 0,
+      "hierarchical_labels_count": 0,
+      "power_symbols_count": 0
+    },
+    {
+      "path": "/Users/maelastiques/PTCR-V5-P4/power.kicad_sch",
+      "size_bytes": 30308,
+      "symbols_count": 15,
+      "labels_count": 0,
+      "hierarchical_labels_count": 0,
+      "power_symbols_count": 6
+    },
+    {
+      "path": "/Users/maelastiques/PTCR-V5-P4/radio.kicad_sch",
+      "size_bytes": 461,
+      "symbols_count": 0,
+      "labels_count": 0,
+      "hierarchical_labels_count": 0,
+      "power_symbols_count": 0
+    },
+    {
+      "path": "/Users/maelastiques/PTCR-V5-P4/sdram.kicad_sch",
+      "size_bytes": 95273,
+      "symbols_count": 11,
+      "labels_count": 0,
+      "hierarchical_labels_count": 0,
+      "power_symbols_count": 20
+    },
+    {
+      "path": "/Users/maelastiques/PTCR-V5-P4/sensors.kicad_sch",
+      "size_bytes": 45752,
+      "symbols_count": 10,
+      "labels_count": 0,
+      "hierarchical_labels_count": 0,
+      "power_symbols_count": 17
+    }
+  ],
+  "is_multi_sheet": true
+}

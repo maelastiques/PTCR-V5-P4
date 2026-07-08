@@ -1,0 +1,9 @@
+{
+  "ref": "C87",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "4.7uF",
+    "Capacitor_SMD:C_0603_1608Metric"
+  ]
+}

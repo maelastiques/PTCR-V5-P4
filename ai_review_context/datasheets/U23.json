@@ -1,0 +1,9 @@
+{
+  "ref": "U23",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "E22-900M30S",
+    "PTCR:XCVR_E22-900M30S"
+  ]
+}

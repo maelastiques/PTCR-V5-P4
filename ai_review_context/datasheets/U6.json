@@ -1,0 +1,9 @@
+{
+  "ref": "U6",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "LSM6DSOXTR",
+    "PTCR:LGA-14L_STM"
+  ]
+}

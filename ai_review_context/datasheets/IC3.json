@@ -1,0 +1,9 @@
+{
+  "ref": "IC3",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "AD8318ACPZ-REEL7",
+    "PTCR:QFN65P400X400X100-17N"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "ref": "BT2",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "SECOND",
+    "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
+  ]
+}

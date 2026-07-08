@@ -1,0 +1,9 @@
+{
+  "ref": "C23",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "10uF",
+    "Capacitor_SMD:C_0603_1608Metric"
+  ]
+}

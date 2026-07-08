@@ -1,0 +1,22 @@
+{
+  "project_path": "/Users/maelastiques/PTCR-V5-P4",
+  "board_file": "/Users/maelastiques/PTCR-V5-P4/LoRa-Phone.kicad_pcb",
+  "project_file": "/Users/maelastiques/PTCR-V5-P4/LoRa-Phone.kicad_pro",
+  "kicad_version": "10.0.0",
+  "project_variables": {},
+  "schematic_files": [
+    "/Users/maelastiques/PTCR-V5-P4/LoRa-Phone.kicad_sch",
+    "/Users/maelastiques/PTCR-V5-P4/audio.kicad_sch",
+    "/Users/maelastiques/PTCR-V5-P4/expander.kicad_sch",
+    "/Users/maelastiques/PTCR-V5-P4/inputs.kicad_sch",
+    "/Users/maelastiques/PTCR-V5-P4/mcu.kicad_sch",
+    "/Users/maelastiques/PTCR-V5-P4/memory.kicad_sch",
+    "/Users/maelastiques/PTCR-V5-P4/misc.kicad_sch",
+    "/Users/maelastiques/PTCR-V5-P4/outputs.kicad_sch",
+    "/Users/maelastiques/PTCR-V5-P4/ports.kicad_sch",
+    "/Users/maelastiques/PTCR-V5-P4/power.kicad_sch",
+    "/Users/maelastiques/PTCR-V5-P4/radio.kicad_sch",
+    "/Users/maelastiques/PTCR-V5-P4/sdram.kicad_sch",
+    "/Users/maelastiques/PTCR-V5-P4/sensors.kicad_sch"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "ref": "TP1",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "TXD_LC76G",
+    "TestPoint:TestPoint_Pad_1.5x1.5mm"
+  ]
+}

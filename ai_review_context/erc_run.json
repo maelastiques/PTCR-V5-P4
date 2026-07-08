@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "returncode": 0,
+  "command": [
+    "/Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli",
+    "sch",
+    "erc",
+    "/Users/maelastiques/PTCR-V5-P4/LoRa-Phone.kicad_sch",
+    "--output",
+    "/Users/maelastiques/PTCR-V5-P4/ai_review_context/erc_report.json",
+    "--format",
+    "json"
+  ],
+  "stdout": "Violations trouvées 0\nRapport ERC sauvegardé en /Users/maelastiques/PTCR-V5-P4/ai_review_context/erc_report.json\n",
+  "stderr": "",
+  "report_path": "/Users/maelastiques/PTCR-V5-P4/ai_review_context/erc_report.json",
+  "report_exists": true,
+  "issue_count": 0
+}

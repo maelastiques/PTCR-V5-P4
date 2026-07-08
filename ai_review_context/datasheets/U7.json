@@ -1,0 +1,9 @@
+{
+  "ref": "U7",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "BQ24075RGT",
+    "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm"
+  ]
+}

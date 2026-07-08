@@ -1,0 +1,9 @@
+{
+  "ref": "U5",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "IS31FL3218-QF",
+    "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm"
+  ]
+}

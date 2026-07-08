@@ -1,0 +1,9 @@
+{
+  "ref": "U16",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "INA219BxDCN",
+    "Package_TO_SOT_SMD:SOT-23-8"
+  ]
+}

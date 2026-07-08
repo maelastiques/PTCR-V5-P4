@@ -1,0 +1,9 @@
+{
+  "ref": "C131",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "100nF",
+    "Capacitor_SMD:C_0402_1005Metric"
+  ]
+}

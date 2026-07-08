@@ -1,0 +1,9 @@
+{
+  "ref": "REF**",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "antipad",
+    "PTCR:antipad"
+  ]
+}

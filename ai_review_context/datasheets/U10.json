@@ -1,0 +1,9 @@
+{
+  "ref": "U10",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "DRV2605LDGS",
+    "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+  ]
+}

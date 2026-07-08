@@ -1,0 +1,9 @@
+{
+  "ref": "U1",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "ESP32-S3-WROOM-2",
+    "RF_Module:ESP32-S3-WROOM-2"
+  ]
+}

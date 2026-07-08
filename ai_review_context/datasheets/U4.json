@@ -1,0 +1,9 @@
+{
+  "ref": "U4",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "BMP390",
+    "PTCR:10LGA_2X2X0p75_BOS"
+  ]
+}

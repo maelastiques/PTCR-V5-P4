@@ -1,0 +1,9 @@
+{
+  "ref": "FB2",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "600R @100MHz 500mA",
+    "Inductor_SMD:L_0402_1005Metric"
+  ]
+}

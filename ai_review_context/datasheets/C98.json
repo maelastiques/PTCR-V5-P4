@@ -1,0 +1,9 @@
+{
+  "ref": "C98",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "1uF",
+    "Capacitor_SMD:C_0402_1005Metric"
+  ]
+}

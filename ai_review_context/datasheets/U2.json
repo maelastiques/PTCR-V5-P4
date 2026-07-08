@@ -1,0 +1,9 @@
+{
+  "ref": "U2",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "TCD-10-23BDX+",
+    "PTCR:TCD-10-23BDX+"
+  ]
+}

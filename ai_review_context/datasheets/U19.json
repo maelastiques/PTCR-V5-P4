@@ -1,0 +1,9 @@
+{
+  "ref": "U19",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "RIC11-31S10K2-GSMT",
+    "PTCR:RIC1131S10K2GSMT"
+  ]
+}

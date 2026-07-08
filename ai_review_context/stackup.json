@@ -1,0 +1,646 @@
+{
+  "copper_layers": 4,
+  "board_thickness_mm": 1.59099,
+  "layers": [
+    {
+      "id": 0,
+      "name": "F.Cu",
+      "enabled": true
+    },
+    {
+      "id": 1,
+      "name": "F.Mask",
+      "enabled": true
+    },
+    {
+      "id": 2,
+      "name": "B.Cu",
+      "enabled": true
+    },
+    {
+      "id": 3,
+      "name": "B.Mask",
+      "enabled": true
+    },
+    {
+      "id": 4,
+      "name": "In1.Cu",
+      "enabled": true
+    },
+    {
+      "id": 5,
+      "name": "F.Silkscreen",
+      "enabled": true
+    },
+    {
+      "id": 6,
+      "name": "In2.Cu",
+      "enabled": true
+    },
+    {
+      "id": 7,
+      "name": "B.Silkscreen",
+      "enabled": true
+    },
+    {
+      "id": 8,
+      "name": "In3.Cu",
+      "enabled": false
+    },
+    {
+      "id": 9,
+      "name": "F.Adhesive",
+      "enabled": true
+    },
+    {
+      "id": 10,
+      "name": "In4.Cu",
+      "enabled": false
+    },
+    {
+      "id": 11,
+      "name": "B.Adhesive",
+      "enabled": true
+    },
+    {
+      "id": 12,
+      "name": "In5.Cu",
+      "enabled": false
+    },
+    {
+      "id": 13,
+      "name": "F.Paste",
+      "enabled": true
+    },
+    {
+      "id": 14,
+      "name": "In6.Cu",
+      "enabled": false
+    },
+    {
+      "id": 15,
+      "name": "B.Paste",
+      "enabled": true
+    },
+    {
+      "id": 16,
+      "name": "In7.Cu",
+      "enabled": false
+    },
+    {
+      "id": 17,
+      "name": "User.Drawings",
+      "enabled": true
+    },
+    {
+      "id": 18,
+      "name": "In8.Cu",
+      "enabled": false
+    },
+    {
+      "id": 19,
+      "name": "User.Comments",
+      "enabled": true
+    },
+    {
+      "id": 20,
+      "name": "In9.Cu",
+      "enabled": false
+    },
+    {
+      "id": 21,
+      "name": "User.Eco1",
+      "enabled": true
+    },
+    {
+      "id": 22,
+      "name": "In10.Cu",
+      "enabled": false
+    },
+    {
+      "id": 23,
+      "name": "User.Eco2",
+      "enabled": true
+    },
+    {
+      "id": 24,
+      "name": "In11.Cu",
+      "enabled": false
+    },
+    {
+      "id": 25,
+      "name": "Edge.Cuts",
+      "enabled": true
+    },
+    {
+      "id": 26,
+      "name": "In12.Cu",
+      "enabled": false
+    },
+    {
+      "id": 27,
+      "name": "Margin",
+      "enabled": true
+    },
+    {
+      "id": 28,
+      "name": "In13.Cu",
+      "enabled": false
+    },
+    {
+      "id": 29,
+      "name": "B.Courtyard",
+      "enabled": true
+    },
+    {
+      "id": 30,
+      "name": "In14.Cu",
+      "enabled": false
+    },
+    {
+      "id": 31,
+      "name": "F.Courtyard",
+      "enabled": true
+    },
+    {
+      "id": 32,
+      "name": "In15.Cu",
+      "enabled": false
+    },
+    {
+      "id": 33,
+      "name": "B.Fab",
+      "enabled": true
+    },
+    {
+      "id": 34,
+      "name": "In16.Cu",
+      "enabled": false
+    },
+    {
+      "id": 35,
+      "name": "F.Fab",
+      "enabled": true
+    },
+    {
+      "id": 36,
+      "name": "In17.Cu",
+      "enabled": false
+    },
+    {
+      "id": 37,
+      "name": "Secours",
+      "enabled": false
+    },
+    {
+      "id": 38,
+      "name": "In18.Cu",
+      "enabled": false
+    },
+    {
+      "id": 39,
+      "name": "User.1",
+      "enabled": true
+    },
+    {
+      "id": 40,
+      "name": "In19.Cu",
+      "enabled": false
+    },
+    {
+      "id": 41,
+      "name": "User.2",
+      "enabled": true
+    },
+    {
+      "id": 42,
+      "name": "In20.Cu",
+      "enabled": false
+    },
+    {
+      "id": 43,
+      "name": "User.3",
+      "enabled": true
+    },
+    {
+      "id": 44,
+      "name": "In21.Cu",
+      "enabled": false
+    },
+    {
+      "id": 45,
+      "name": "User.4",
+      "enabled": true
+    },
+    {
+      "id": 46,
+      "name": "In22.Cu",
+      "enabled": false
+    },
+    {
+      "id": 47,
+      "name": "User.5",
+      "enabled": false
+    },
+    {
+      "id": 48,
+      "name": "In23.Cu",
+      "enabled": false
+    },
+    {
+      "id": 49,
+      "name": "User.6",
+      "enabled": false
+    },
+    {
+      "id": 50,
+      "name": "In24.Cu",
+      "enabled": false
+    },
+    {
+      "id": 51,
+      "name": "User.7",
+      "enabled": false
+    },
+    {
+      "id": 52,
+      "name": "In25.Cu",
+      "enabled": false
+    },
+    {
+      "id": 53,
+      "name": "User.8",
+      "enabled": false
+    },
+    {
+      "id": 54,
+      "name": "In26.Cu",
+      "enabled": false
+    },
+    {
+      "id": 55,
+      "name": "User.9",
+      "enabled": false
+    },
+    {
+      "id": 56,
+      "name": "In27.Cu",
+      "enabled": false
+    },
+    {
+      "id": 57,
+      "name": "User.10",
+      "enabled": false
+    },
+    {
+      "id": 58,
+      "name": "In28.Cu",
+      "enabled": false
+    },
+    {
+      "id": 59,
+      "name": "User.11",
+      "enabled": false
+    },
+    {
+      "id": 60,
+      "name": "In29.Cu",
+      "enabled": false
+    },
+    {
+      "id": 61,
+      "name": "User.12",
+      "enabled": false
+    },
+    {
+      "id": 62,
+      "name": "In30.Cu",
+      "enabled": false
+    },
+    {
+      "id": 63,
+      "name": "User.13",
+      "enabled": false
+    },
+    {
+      "id": 64,
+      "name": "In31.Cu",
+      "enabled": false
+    },
+    {
+      "id": 65,
+      "name": "User.14",
+      "enabled": false
+    },
+    {
+      "id": 66,
+      "name": "In32.Cu",
+      "enabled": false
+    },
+    {
+      "id": 67,
+      "name": "User.15",
+      "enabled": false
+    },
+    {
+      "id": 68,
+      "name": "In33.Cu",
+      "enabled": false
+    },
+    {
+      "id": 69,
+      "name": "User.16",
+      "enabled": false
+    },
+    {
+      "id": 70,
+      "name": "In34.Cu",
+      "enabled": false
+    },
+    {
+      "id": 71,
+      "name": "User.17",
+      "enabled": false
+    },
+    {
+      "id": 72,
+      "name": "In35.Cu",
+      "enabled": false
+    },
+    {
+      "id": 73,
+      "name": "User.18",
+      "enabled": false
+    },
+    {
+      "id": 74,
+      "name": "In36.Cu",
+      "enabled": false
+    },
+    {
+      "id": 75,
+      "name": "User.19",
+      "enabled": false
+    },
+    {
+      "id": 76,
+      "name": "In37.Cu",
+      "enabled": false
+    },
+    {
+      "id": 77,
+      "name": "User.20",
+      "enabled": false
+    },
+    {
+      "id": 78,
+      "name": "In38.Cu",
+      "enabled": false
+    },
+    {
+      "id": 79,
+      "name": "User.21",
+      "enabled": false
+    },
+    {
+      "id": 80,
+      "name": "In39.Cu",
+      "enabled": false
+    },
+    {
+      "id": 81,
+      "name": "User.22",
+      "enabled": false
+    },
+    {
+      "id": 82,
+      "name": "In40.Cu",
+      "enabled": false
+    },
+    {
+      "id": 83,
+      "name": "User.23",
+      "enabled": false
+    },
+    {
+      "id": 84,
+      "name": "In41.Cu",
+      "enabled": false
+    },
+    {
+      "id": 85,
+      "name": "User.24",
+      "enabled": false
+    },
+    {
+      "id": 86,
+      "name": "In42.Cu",
+      "enabled": false
+    },
+    {
+      "id": 87,
+      "name": "User.25",
+      "enabled": false
+    },
+    {
+      "id": 88,
+      "name": "In43.Cu",
+      "enabled": false
+    },
+    {
+      "id": 89,
+      "name": "User.26",
+      "enabled": false
+    },
+    {
+      "id": 90,
+      "name": "In44.Cu",
+      "enabled": false
+    },
+    {
+      "id": 91,
+      "name": "User.27",
+      "enabled": false
+    },
+    {
+      "id": 92,
+      "name": "In45.Cu",
+      "enabled": false
+    },
+    {
+      "id": 93,
+      "name": "User.28",
+      "enabled": false
+    },
+    {
+      "id": 94,
+      "name": "In46.Cu",
+      "enabled": false
+    },
+    {
+      "id": 95,
+      "name": "User.29",
+      "enabled": false
+    },
+    {
+      "id": 96,
+      "name": "In47.Cu",
+      "enabled": false
+    },
+    {
+      "id": 97,
+      "name": "User.30",
+      "enabled": false
+    },
+    {
+      "id": 98,
+      "name": "In48.Cu",
+      "enabled": false
+    },
+    {
+      "id": 99,
+      "name": "User.31",
+      "enabled": false
+    },
+    {
+      "id": 100,
+      "name": "In49.Cu",
+      "enabled": false
+    },
+    {
+      "id": 101,
+      "name": "User.32",
+      "enabled": false
+    },
+    {
+      "id": 102,
+      "name": "In50.Cu",
+      "enabled": false
+    },
+    {
+      "id": 103,
+      "name": "User.33",
+      "enabled": false
+    },
+    {
+      "id": 104,
+      "name": "In51.Cu",
+      "enabled": false
+    },
+    {
+      "id": 105,
+      "name": "User.34",
+      "enabled": false
+    },
+    {
+      "id": 106,
+      "name": "In52.Cu",
+      "enabled": false
+    },
+    {
+      "id": 107,
+      "name": "User.35",
+      "enabled": false
+    },
+    {
+      "id": 108,
+      "name": "In53.Cu",
+      "enabled": false
+    },
+    {
+      "id": 109,
+      "name": "User.36",
+      "enabled": false
+    },
+    {
+      "id": 110,
+      "name": "In54.Cu",
+      "enabled": false
+    },
+    {
+      "id": 111,
+      "name": "User.37",
+      "enabled": false
+    },
+    {
+      "id": 112,
+      "name": "In55.Cu",
+      "enabled": false
+    },
+    {
+      "id": 113,
+      "name": "User.38",
+      "enabled": false
+    },
+    {
+      "id": 114,
+      "name": "In56.Cu",
+      "enabled": false
+    },
+    {
+      "id": 115,
+      "name": "User.39",
+      "enabled": false
+    },
+    {
+      "id": 116,
+      "name": "In57.Cu",
+      "enabled": false
+    },
+    {
+      "id": 117,
+      "name": "User.40",
+      "enabled": false
+    },
+    {
+      "id": 118,
+      "name": "In58.Cu",
+      "enabled": false
+    },
+    {
+      "id": 119,
+      "name": "User.41",
+      "enabled": false
+    },
+    {
+      "id": 120,
+      "name": "In59.Cu",
+      "enabled": false
+    },
+    {
+      "id": 121,
+      "name": "User.42",
+      "enabled": false
+    },
+    {
+      "id": 122,
+      "name": "In60.Cu",
+      "enabled": false
+    },
+    {
+      "id": 123,
+      "name": "User.43",
+      "enabled": false
+    },
+    {
+      "id": 124,
+      "name": "In61.Cu",
+      "enabled": false
+    },
+    {
+      "id": 125,
+      "name": "User.44",
+      "enabled": false
+    },
+    {
+      "id": 126,
+      "name": "In62.Cu",
+      "enabled": false
+    },
+    {
+      "id": 127,
+      "name": "User.45",
+      "enabled": false
+    }
+  ]
+}

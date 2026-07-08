@@ -1,0 +1,9 @@
+{
+  "ref": "IC9",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "SN74LVC1G74RSE2",
+    "PTCR:SN74LVC1G74RSE2"
+  ]
+}

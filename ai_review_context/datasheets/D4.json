@@ -1,0 +1,9 @@
+{
+  "ref": "D4",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "LED_ARBG",
+    "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+  ]
+}

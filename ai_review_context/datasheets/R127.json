@@ -1,0 +1,9 @@
+{
+  "ref": "R127",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "0.02R",
+    "Resistor_SMD:R_0402_1005Metric"
+  ]
+}

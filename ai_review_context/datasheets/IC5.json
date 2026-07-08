@@ -1,0 +1,9 @@
+{
+  "ref": "IC5",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "MAX17048G+T10",
+    "PTCR:SON50P200X200X80-9N-D"
+  ]
+}

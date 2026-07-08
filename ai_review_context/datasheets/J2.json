@@ -1,0 +1,9 @@
+{
+  "ref": "J2",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "Joystick",
+    "Connector_FFC-FPC:Amphenol_F32Q-1A7x1-11004_1x04-1MP_P0.5mm_Horizontal"
+  ]
+}

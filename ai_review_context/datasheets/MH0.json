@@ -1,0 +1,9 @@
+{
+  "ref": "MH0",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "MountingHole_2.2mm_M2_DIN965_Pad_TopBottom",
+    "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+  ]
+}

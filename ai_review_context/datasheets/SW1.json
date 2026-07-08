@@ -1,0 +1,9 @@
+{
+  "ref": "SW1",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "POWER",
+    "Button_Switch_SMD:SW_SPST_PTS810"
+  ]
+}

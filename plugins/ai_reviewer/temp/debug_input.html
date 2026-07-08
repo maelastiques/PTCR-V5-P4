@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"/>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: #17181c; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; padding: 20px; }
+h3 { color: #9aa0ab; font-size:11px; text-transform:uppercase; letter-spacing:.5px; margin-bottom:8px; }
+
+/* Version actuelle: simulation de ce que le wx natif donne souvent sous macOS */
+.card-current {
+  background: #26282e;
+  border: 1px solid #34363d;
+  border-radius: 16px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow: hidden;
+}
+/* Sur macOS, wx.TextCtrl ignore parfois SetBackgroundColour → fond blanc visible */
+.card-current textarea {
+  flex: 1;
+  background: white;  /* le glitch: fond blanc */
+  color: #1c1e21;
+  border: none;
+  outline: none;
+  padding: 10px 12px;
+  font-family: inherit;
+  font-size: 14px;
+  resize: none;
+  min-height: 52px;
+  margin: 10px;
+  border-radius: 4px;
+}
+.card-current .btn { /* les boutons eux sont OK */
+  background: none;
+  border: 1px solid #34363d;
+  color: #9aa0ab;
+  border-radius: 10px;
+  padding: 8px 16px;
+  font-size:13px;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.card-current .btn-send {
+  background: #5b9bff;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 8px 18px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+</style></head>
+<body>
+<h3>État actuel (glitch typique macOS wx: fond blanc)</h3>
+<div class="card-current">
+  <textarea placeholder="Ask an engineering question…  (Enter to send, Shift+Enter for new line)" rows="2"></textarea>
+  <button class="btn">Capture</button>
+  <button class="btn-send">Envoyer</button>
+</div>
+</body></html>

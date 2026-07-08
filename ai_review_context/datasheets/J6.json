@@ -1,0 +1,9 @@
+{
+  "ref": "J6",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "Board_1",
+    "Connector_FFC-FPC:Molex_502244-3330_1x33-1MP_P0.5mm_Horizontal"
+  ]
+}

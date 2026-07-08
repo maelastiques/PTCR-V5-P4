@@ -1,0 +1,9 @@
+{
+  "ref": "U12",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "RV-3028-C7",
+    "Package_SON:MicroCrystal_C7_SON-8_1.5x3.2mm_P0.9mm"
+  ]
+}

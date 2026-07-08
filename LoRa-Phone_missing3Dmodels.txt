@@ -1,33 +1,33 @@
-### Missing 3D models - created on 2026-07-06 16:11
+### Missing 3D models - created on 2026-07-08 14:39
 ### Printed by checking_3D_models plugin
 Board file: /Users/maelastiques/PTCR-V5-P4/LoRa-Phone.kicad_pcb
 3D missing models written to:
 /Users/maelastiques/PTCR-V5-P4/LoRa-Phone_missing3Dmodels.txt
 -------
-('M1', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Connector_Molex.3dshapes/Molex_PicoBlade_53048-0210_1x02_P1.25mm_Horizontal.step')
-('IC6', '/Users/maelastiques/PTCR-V5-P4/MAX17048G+T10.stp')
-('D1', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/LED_SMD.3dshapes/LED_SK6812_EC15_1.5x1.5mm.step')
-('IC5', '/Users/maelastiques/PTCR-V5-P4/MAX17048G+T10.stp')
-('U12', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_SON.3dshapes/MicroCrystal_C7_SON-8_1.5x3.2mm_P0.9mm.step')
-('IC1', '/Users/maelastiques/PTCR-V5-P4/SKY13373-460LF.stp')
-('IC9', '/Users/maelastiques/PTCR-V5-P4/SN74LVC1G74RSE2.stp')
-('D4', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/LED_SMD.3dshapes/LED_SK6812_EC15_1.5x1.5mm.step')
-('AE1', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Connector_Coaxial.3dshapes/U.FL_Molex_MCRF_73412-0110_Vertical.step')
-('IC10', '/Users/maelastiques/PTCR-V5-P4/TPS22965NTDSGRQ1.stp')
-('IC4', '/Users/maelastiques/PTCR-V5-P4/TPS2121RUXT.stp')
-('IC3', '/Users/maelastiques/PTCR-V5-P4/AD8318ACPZ-REEL7.stp')
-('D3', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/LED_SMD.3dshapes/LED_SK6812_EC15_1.5x1.5mm.step')
-('U19', '/Users/maelastiques/PTCR-V5-P4/RIC11-31S10K2-GSMT.stp')
-('D2', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/LED_SMD.3dshapes/LED_SK6812_EC15_1.5x1.5mm.step')
-('U9', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DFN_QFN.3dshapes/VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm.step')
-('IC7', '/Users/maelastiques/PTCR-V5-P4/TCA9543ADR.stp')
-('D6', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/LED_SMD.3dshapes/LED_SK6812_EC15_1.5x1.5mm.step')
-('IC2', '/Users/maelastiques/PTCR-V5-P4/AD8318ACPZ-REEL7.stp')
-('U7', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DFN_QFN.3dshapes/VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm.step')
+('J2', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Connector_FFC-FPC.3dshapes/Amphenol_F32Q-1A7x1-11004_1x04-1MP_P0.5mm_Horizontal.step')
 ('D5', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/LED_SMD.3dshapes/LED_SK6812_EC15_1.5x1.5mm.step')
-('IC8', '/Users/maelastiques/PTCR-V5-P4/MAX16150AUT+T.stp')
 ('J5', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Connector_FFC-FPC.3dshapes/Molex_502244-3330_1x33-1MP_P0.5mm_Horizontal.step')
-('J3', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Connector_FFC-FPC.3dshapes/Molex_502244-3330_1x33-1MP_P0.5mm_Horizontal.step')
+('J6', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Connector_FFC-FPC.3dshapes/Molex_502244-3330_1x33-1MP_P0.5mm_Horizontal.step')
+('U7', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DFN_QFN.3dshapes/VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm.step')
+('IC2', '/Users/maelastiques/PTCR-V5-P4/AD8318ACPZ-REEL7.stp')
+('D6', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/LED_SMD.3dshapes/LED_SK6812_EC15_1.5x1.5mm.step')
+('IC7', '/Users/maelastiques/PTCR-V5-P4/TCA9543ADR.stp')
+('IC6', '/Users/maelastiques/PTCR-V5-P4/MAX17048G+T10.stp')
+('U9', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_DFN_QFN.3dshapes/VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm.step')
+('IC8', '/Users/maelastiques/PTCR-V5-P4/MAX16150AUT+T.stp')
+('D2', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/LED_SMD.3dshapes/LED_SK6812_EC15_1.5x1.5mm.step')
+('U19', '/Users/maelastiques/PTCR-V5-P4/RIC11-31S10K2-GSMT.stp')
+('D3', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/LED_SMD.3dshapes/LED_SK6812_EC15_1.5x1.5mm.step')
+('IC3', '/Users/maelastiques/PTCR-V5-P4/AD8318ACPZ-REEL7.stp')
+('IC4', '/Users/maelastiques/PTCR-V5-P4/TPS2121RUXT.stp')
+('IC10', '/Users/maelastiques/PTCR-V5-P4/TPS22965NTDSGRQ1.stp')
+('D4', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/LED_SMD.3dshapes/LED_SK6812_EC15_1.5x1.5mm.step')
+('M1', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Connector_Molex.3dshapes/Molex_PicoBlade_53048-0210_1x02_P1.25mm_Horizontal.step')
+('IC9', '/Users/maelastiques/PTCR-V5-P4/SN74LVC1G74RSE2.stp')
+('IC1', '/Users/maelastiques/PTCR-V5-P4/SKY13373-460LF.stp')
+('U12', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/Package_SON.3dshapes/MicroCrystal_C7_SON-8_1.5x3.2mm_P0.9mm.step')
+('IC5', '/Users/maelastiques/PTCR-V5-P4/MAX17048G+T10.stp')
+('D1', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/LED_SMD.3dshapes/LED_SK6812_EC15_1.5x1.5mm.step')
 -------
 NUM of 3D missing models:24
 checked extensions ['.stp', '.step', '.stpZ']

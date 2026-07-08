@@ -1,0 +1,9 @@
+{
+  "ref": "IC1",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "SKY13373-460LF",
+    "PTCR:QFN50P200X200X60-13N-D"
+  ]
+}

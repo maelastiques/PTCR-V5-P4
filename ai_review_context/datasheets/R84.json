@@ -1,0 +1,9 @@
+{
+  "ref": "R84",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "96.2R",
+    "Resistor_SMD:R_0402_1005Metric"
+  ]
+}

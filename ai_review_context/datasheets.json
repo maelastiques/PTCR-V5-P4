@@ -1,0 +1,1841 @@
+{
+  "count": 204,
+  "entries": [
+    {
+      "ref": "MH0",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "MountingHole_2.2mm_M2_DIN965_Pad_TopBottom",
+        "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+      ]
+    },
+    {
+      "ref": "R91",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "3.3K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R114",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "1K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C133",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100nF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C23",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10uF",
+        "Capacitor_SMD:C_0603_1608Metric"
+      ]
+    },
+    {
+      "ref": "R111",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "1.18K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C127",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "2.2uF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "D1",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "LED_ARBG",
+        "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+      ]
+    },
+    {
+      "ref": "R103",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "5K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C27",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "1uF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "U24",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "E22-170M30S",
+        "PTCR:XCVR_E22-900M30S"
+      ]
+    },
+    {
+      "ref": "C37",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "0.1uF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C29",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100nF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "IC5",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "MAX17048G+T10",
+        "PTCR:SON50P200X200X80-9N-D"
+      ]
+    },
+    {
+      "ref": "R100",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "16K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R84",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "96.2R",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C111",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "1nF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R90",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "499R",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "U12",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "RV-3028-C7",
+        "Package_SON:MicroCrystal_C7_SON-8_1.5x3.2mm_P0.9mm"
+      ]
+    },
+    {
+      "ref": "IC1",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "SKY13373-460LF",
+        "PTCR:QFN50P200X200X60-13N-D"
+      ]
+    },
+    {
+      "ref": "C26",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "1uF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "IC9",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "SN74LVC1G74RSE2",
+        "PTCR:SN74LVC1G74RSE2"
+      ]
+    },
+    {
+      "ref": "R79",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R94",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "499R",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C128",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100nF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "U17",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "MCP4725xxx-xCH",
+        "Package_TO_SOT_SMD:SOT-23-6"
+      ]
+    },
+    {
+      "ref": "D4",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "LED_ARBG",
+        "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+      ]
+    },
+    {
+      "ref": "R92",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R108",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "1K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C119",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "4.7uF",
+        "Capacitor_SMD:C_0603_1608Metric"
+      ]
+    },
+    {
+      "ref": "R140",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "U8",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "MCP23017x-x-ML",
+        "Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm"
+      ]
+    },
+    {
+      "ref": "C105",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "0.1uF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "U2",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "TCD-10-23BDX+",
+        "PTCR:TCD-10-23BDX+"
+      ]
+    },
+    {
+      "ref": "SW1",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "POWER",
+        "Button_Switch_SMD:SW_SPST_PTS810"
+      ]
+    },
+    {
+      "ref": "R112",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "1.18K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R116",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R74",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R93",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "52.3R",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C113",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100pF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R88",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "71.5R",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "IC4",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "TPS2121RUXT",
+        "PTCR:TPS2121RUXT"
+      ]
+    },
+    {
+      "ref": "R95",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "U4",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "BMP390",
+        "PTCR:10LGA_2X2X0p75_BOS"
+      ]
+    },
+    {
+      "ref": "IC3",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "AD8318ACPZ-REEL7",
+        "PTCR:QFN65P400X400X100-17N"
+      ]
+    },
+    {
+      "ref": "U1",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "ESP32-S3-WROOM-2",
+        "RF_Module:ESP32-S3-WROOM-2"
+      ]
+    },
+    {
+      "ref": "D3",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "LED_ARBG",
+        "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+      ]
+    },
+    {
+      "ref": "U19",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "RIC11-31S10K2-GSMT",
+        "PTCR:RIC1131S10K2GSMT"
+      ]
+    },
+    {
+      "ref": "R104",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "51.1K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "D2",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "LED_ARBG",
+        "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+      ]
+    },
+    {
+      "ref": "FB6",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "600R @100MHz 500mA",
+        "Inductor_SMD:L_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C102",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "1nF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C108",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "1nF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C16",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "0.1uF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C118",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "1uF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C110",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "0.1uF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "U9",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "BQ24075RGT",
+        "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm"
+      ]
+    },
+    {
+      "ref": "R76",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R110",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "1.13K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "Q2",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "AO3400A",
+        "Package_TO_SOT_SMD:SOT-23"
+      ]
+    },
+    {
+      "ref": "C40",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10uF",
+        "Capacitor_SMD:C_0603_1608Metric"
+      ]
+    },
+    {
+      "ref": "C112",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "1nF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R89",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "52.3R",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C134",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100nF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C107",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "0.1uF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C89",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100nF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C98",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "1uF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C120",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "4.7uF",
+        "Capacitor_SMD:C_0603_1608Metric"
+      ]
+    },
+    {
+      "ref": "C94",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "0.1uF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R85",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "71.5R",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C106",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100pF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C125",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100nF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "U23",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "E22-900M30S",
+        "PTCR:XCVR_E22-900M30S"
+      ]
+    },
+    {
+      "ref": "IC6",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "MAX17048G+T10",
+        "PTCR:SON50P200X200X80-9N-D"
+      ]
+    },
+    {
+      "ref": "C117",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "1uF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C8",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100nF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "D6",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "LED_ARBG",
+        "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+      ]
+    },
+    {
+      "ref": "IC2",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "AD8318ACPZ-REEL7",
+        "PTCR:QFN65P400X400X100-17N"
+      ]
+    },
+    {
+      "ref": "U7",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "BQ24075RGT",
+        "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm"
+      ]
+    },
+    {
+      "ref": "U10",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "DRV2605LDGS",
+        "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+      ]
+    },
+    {
+      "ref": "R136",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10K 0.1%",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "D5",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "LED_ARBG",
+        "LED_SMD:LED_SK6812_EC15_1.5x1.5mm"
+      ]
+    },
+    {
+      "ref": "C9",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100nF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "MH0",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "MountingHole_2.2mm_M2_DIN965_Pad_TopBottom",
+        "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+      ]
+    },
+    {
+      "ref": "R87",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "96.2R",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R70",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C124",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100nF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R139",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R83",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "96.2R",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "REF**",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "antipad",
+        "PTCR:antipad"
+      ]
+    },
+    {
+      "ref": "TP7",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "+3V3_RF",
+        "TestPoint:TestPoint_Pad_D1.0mm"
+      ]
+    },
+    {
+      "ref": "R137",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "5.6K 0.1%",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "MH0",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "MountingHole_2.2mm_M2_DIN965_Pad_TopBottom",
+        "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+      ]
+    },
+    {
+      "ref": "R115",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "1K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "FB3",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "600R @100MHz 500mA",
+        "Inductor_SMD:L_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C31",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "0.1uF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R96",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R102",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "5K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C103",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "1nF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C122",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100nF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C97",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "4.7uF",
+        "Capacitor_SMD:C_0603_1608Metric"
+      ]
+    },
+    {
+      "ref": "C38",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "0.1uF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "U3",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "MCP23017x-x-ML",
+        "Package_DFN_QFN:QFN-28-1EP_6x6mm_P0.65mm_EP4.25x4.25mm"
+      ]
+    },
+    {
+      "ref": "R105",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10.2K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "U5",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "IS31FL3218-QF",
+        "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm"
+      ]
+    },
+    {
+      "ref": "R78",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C30",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "1uF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R101",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "16K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R97",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "5.6K 0.1%",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C115",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "4.7uF",
+        "Capacitor_SMD:C_0603_1608Metric"
+      ]
+    },
+    {
+      "ref": "R132",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C126",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "2.2uF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "TP5",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "+5V_RF",
+        "TestPoint:TestPoint_Pad_D1.0mm"
+      ]
+    },
+    {
+      "ref": "C114",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "0.1uF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C130",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100nF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C104",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100pF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C109",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100pF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C101",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "1nF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R107",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "1K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C131",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100nF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R75",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "2.2K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R86",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "96.2R",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R109",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R113",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "1.13K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "AE6",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "SMA",
+        "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+      ]
+    },
+    {
+      "ref": "U21",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "WM8960",
+        "PTCR:QFN-32"
+      ]
+    },
+    {
+      "ref": "J2",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "Joystick",
+        "Connector_FFC-FPC:Amphenol_F32Q-1A7x1-11004_1x04-1MP_P0.5mm_Horizontal"
+      ]
+    },
+    {
+      "ref": "R106",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "5K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C39",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "4.7uF",
+        "Capacitor_SMD:C_0603_1608Metric"
+      ]
+    },
+    {
+      "ref": "C24",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100nF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R135",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "1K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R138",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10K 0.1%",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "U18",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "TLV3501AIDBV",
+        "Package_TO_SOT_SMD:SOT-23-6"
+      ]
+    },
+    {
+      "ref": "C3",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100nF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "U15",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "INA219BxDCN",
+        "Package_TO_SOT_SMD:SOT-23-8"
+      ]
+    },
+    {
+      "ref": "C87",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "4.7uF",
+        "Capacitor_SMD:C_0603_1608Metric"
+      ]
+    },
+    {
+      "ref": "C93",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "1uF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "TP8",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "+5V_RF",
+        "TestPoint:TestPoint_Pad_D1.0mm"
+      ]
+    },
+    {
+      "ref": "FB1",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "600R @100MHz 2A",
+        "Inductor_SMD:L_0603_1608Metric"
+      ]
+    },
+    {
+      "ref": "C123",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100nF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C28",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10uF",
+        "Capacitor_SMD:C_0603_1608Metric"
+      ]
+    },
+    {
+      "ref": "C4",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100nF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C96",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10uF",
+        "Capacitor_SMD:C_0603_1608Metric"
+      ]
+    },
+    {
+      "ref": "R130",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "0.05R",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "M1",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "Motor_DC",
+        "Connector_Molex:Molex_PicoBlade_53048-0210_1x02_P1.25mm_Horizontal"
+      ]
+    },
+    {
+      "ref": "R141",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "3.3K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "J1",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "Interface",
+        "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical"
+      ]
+    },
+    {
+      "ref": "FB7",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "600R @100MHz 4A",
+        "Inductor_SMD:L_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "TP1",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "TXD_LC76G",
+        "TestPoint:TestPoint_Pad_1.5x1.5mm"
+      ]
+    },
+    {
+      "ref": "U13",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "SA818S",
+        "PTCR:XCVR_SA818S"
+      ]
+    },
+    {
+      "ref": "TP3",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "RXD_LC76G",
+        "TestPoint:TestPoint_Pad_1.5x1.5mm"
+      ]
+    },
+    {
+      "ref": "IC10",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "TPS22965NTDSGRQ1",
+        "PTCR:SON50P200X200X80-9N"
+      ]
+    },
+    {
+      "ref": "R120",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R129",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R82",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100R",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "Q4",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "AO3401A",
+        "Package_TO_SOT_SMD:SOT-23"
+      ]
+    },
+    {
+      "ref": "U14",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "INA219BxDCN",
+        "Package_TO_SOT_SMD:SOT-23-8"
+      ]
+    },
+    {
+      "ref": "C5",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "47uF",
+        "Capacitor_SMD:C_0805_2012Metric"
+      ]
+    },
+    {
+      "ref": "J3",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "L76K",
+        "PTCR:JST_SM08B-SRSS-TB_LF__SN_"
+      ]
+    },
+    {
+      "ref": "U16",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "INA219BxDCN",
+        "Package_TO_SOT_SMD:SOT-23-8"
+      ]
+    },
+    {
+      "ref": "IC8",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "MAX16150AUT+T",
+        "PTCR:SOT95P280X145-6N"
+      ]
+    },
+    {
+      "ref": "FB4",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "600R @100MHz 1.5A",
+        "Inductor_SMD:L_0603_1608Metric"
+      ]
+    },
+    {
+      "ref": "C90",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100nF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C100",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100pF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R123",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "BT1",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "MAIN",
+        "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
+      ]
+    },
+    {
+      "ref": "FB5",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "600R @100MHz 500mA",
+        "Inductor_SMD:L_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R122",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R133",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "IC7",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "TCA9543ADR",
+        "PTCR:SOIC127P600X175-14N"
+      ]
+    },
+    {
+      "ref": "FB2",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "600R @100MHz 500mA",
+        "Inductor_SMD:L_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "J4",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "JST_MAIN",
+        "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
+      ]
+    },
+    {
+      "ref": "R80",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "J6",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "Board_1",
+        "Connector_FFC-FPC:Molex_502244-3330_1x33-1MP_P0.5mm_Horizontal"
+      ]
+    },
+    {
+      "ref": "R118",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C132",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100nF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "J5",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "Board_1",
+        "Connector_FFC-FPC:Molex_502244-3330_1x33-1MP_P0.5mm_Horizontal"
+      ]
+    },
+    {
+      "ref": "C99",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100pF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R117",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "D8",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "D",
+        "Diode_SMD:D_SOD-523"
+      ]
+    },
+    {
+      "ref": "R134",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "5K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R131",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "0.01R",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R127",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "0.02R",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C121",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100nF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "TP6",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "+3V3_RF",
+        "TestPoint:TestPoint_Pad_D1.0mm"
+      ]
+    },
+    {
+      "ref": "R124",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C95",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100nF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "BT2",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "SECOND",
+        "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
+      ]
+    },
+    {
+      "ref": "R98",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R81",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100R",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C135",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100nF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "TP2",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "+3V3_NSY",
+        "TestPoint:TestPoint_Pad_D1.0mm"
+      ]
+    },
+    {
+      "ref": "C25",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10uF",
+        "Capacitor_SMD:C_0603_1608Metric"
+      ]
+    },
+    {
+      "ref": "R77",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R121",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "Q3",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "AO3400A",
+        "Package_TO_SOT_SMD:SOT-23"
+      ]
+    },
+    {
+      "ref": "Q1",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "AO3400A",
+        "Package_TO_SOT_SMD:SOT-23"
+      ]
+    },
+    {
+      "ref": "R128",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "51.1K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C137",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "100nF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "C116",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "1uF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "TP4",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "+3V3_GNSS",
+        "TestPoint:TestPoint_Pad_D1.0mm"
+      ]
+    },
+    {
+      "ref": "C136",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "22uF",
+        "Capacitor_SMD:C_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "R119",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "10K",
+        "Resistor_SMD:R_0402_1005Metric"
+      ]
+    },
+    {
+      "ref": "U6",
+      "status": "not_downloaded",
+      "reason": "downloader not configured",
+      "queries": [
+        "LSM6DSOXTR",
+        "PTCR:LGA-14L_STM"
+      ]
+    }
+  ]
+}

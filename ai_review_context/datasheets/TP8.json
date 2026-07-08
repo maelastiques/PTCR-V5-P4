@@ -1,0 +1,9 @@
+{
+  "ref": "TP8",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "+5V_RF",
+    "TestPoint:TestPoint_Pad_D1.0mm"
+  ]
+}

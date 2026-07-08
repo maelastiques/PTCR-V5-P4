@@ -1,0 +1,9 @@
+{
+  "ref": "IC8",
+  "status": "not_downloaded",
+  "reason": "downloader not configured",
+  "queries": [
+    "MAX16150AUT+T",
+    "PTCR:SOT95P280X145-6N"
+  ]
+}
