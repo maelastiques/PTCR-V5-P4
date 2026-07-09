@@ -1,0 +1,17 @@
+{
+  "pins": {
+    "1": "IN",
+    "2": "OUT",
+    "3": "BAT",
+    "4": "ISET",
+    "5": "ILIM",
+    "6": "TS",
+    "7": "CE",
+    "8": "CHG",
+    "9": "PG",
+    "10": "GND"
+  },
+  "name": "BQ24072",
+  "description": "Standalone 1‑cell 1.5‑A linear Li‑ion charger with power‑path (TI)",
+  "source_url": "https://www.ti.com/product/BQ24072"
+}

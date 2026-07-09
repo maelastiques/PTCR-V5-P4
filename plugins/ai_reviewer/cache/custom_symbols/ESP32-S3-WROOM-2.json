@@ -1,0 +1,16 @@
+{
+  "pins": {
+    "1": "VDD",
+    "2": "GND",
+    "3": "EN",
+    "4": "RESET",
+    "5": "S3_BOOT",
+    "6": "TX0",
+    "7": "RX0",
+    "8": "SDA",
+    "9": "SCL"
+  },
+  "name": "ESP32-S3-WROOM-2",
+  "description": "ESP32‑S3 WROOM module (minimal pin set)",
+  "source_url": "https://www.espressif.com/"
+}

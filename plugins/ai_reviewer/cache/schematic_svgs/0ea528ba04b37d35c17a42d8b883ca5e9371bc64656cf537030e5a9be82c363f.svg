@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1178" height="1392" viewBox="0 0 1178 1392">
+  <rect width="100%" height="100%" fill="#f5f4ef"/>
+  <defs><pattern id="kgrid" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="#cbc9c2" stroke-width="0.4"/></pattern></defs><rect width="1178.0" height="1392.0" fill="url(#kgrid)"/>
+  <line x1="644.8" y1="1098.2" x2="644.8" y2="1114.2" stroke="#009600" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="644.8" y1="1114.2" x2="284.8" y2="1114.2" stroke="#009600" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="322.8" y1="1130.2" x2="322.8" y2="1114.2" stroke="#009600" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="424.8" y1="1130.2" x2="424.8" y2="1114.2" stroke="#009600" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="284.8" y1="1114.2" x2="284.8" y2="1088.2" stroke="#009600" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="284.8" y1="1088.2" x2="284.8" y2="1074.2" stroke="#840000" stroke-width="1.5" stroke-linecap="round"/><polygon points="277.8,1074.2 291.8,1074.2 284.8,1064.2" fill="#840000"/><text x="294.8" y="1076.2" fill="#006464" font-size="10" font-family="SF Mono, ui-monospace, Courier New, monospace">+3V3</text>
+  <line x1="339.6" y1="209.2" x2="323.6" y2="209.2" stroke="#009600" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="323.6" y1="209.2" x2="309.6" y2="209.2" stroke="#840000" stroke-width="1.5" stroke-linecap="round"/><polygon points="309.6,202.2 309.6,216.2 299.6,209.2" fill="#840000"/><text x="292.6" y="209.2" fill="#006464" font-size="10" font-family="SF Mono, ui-monospace, Courier New, monospace" text-anchor="end" dominant-baseline="middle">+3V3</text>
+  <line x1="924.0" y1="641.0" x2="908.0" y2="641.0" stroke="#009600" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="908.0" y1="641.0" x2="894.0" y2="641.0" stroke="#840000" stroke-width="1.5" stroke-linecap="round"/><polygon points="894.0,634.0 894.0,648.0 884.0,641.0" fill="#840000"/><text x="877.0" y="641.0" fill="#006464" font-size="10" font-family="SF Mono, ui-monospace, Courier New, monospace" text-anchor="end" dominant-baseline="middle">+3V3</text>
+  <circle cx="424.8" cy="1114.2" r="3" fill="#009600"/>
+  <circle cx="322.8" cy="1114.2" r="3" fill="#009600"/>
+  <line x1="644.8" y1="133.0" x2="644.8" y2="117.0" stroke="#009600" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="644.8" y1="117.0" x2="644.8" y2="108.0" stroke="#840000" stroke-width="1.5" stroke-linecap="round"/><line x1="633.8" y1="108.0" x2="655.8" y2="108.0" stroke="#840000" stroke-width="1.8" stroke-linecap="round"/><line x1="637.8" y1="102.0" x2="651.8" y2="102.0" stroke="#840000" stroke-width="1.4" stroke-linecap="round"/><line x1="641.8" y1="96.0" x2="647.8" y2="96.0" stroke="#840000" stroke-width="1.0" stroke-linecap="round"/><text x="657.8" y="104.0" fill="#006464" font-size="10" font-family="SF Mono, ui-monospace, Courier New, monospace">GND</text>
+  <line x1="424.8" y1="1181.0" x2="424.8" y2="1197.0" stroke="#009600" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="424.8" y1="1197.0" x2="424.8" y2="1206.0" stroke="#840000" stroke-width="1.5" stroke-linecap="round"/><line x1="413.8" y1="1206.0" x2="435.8" y2="1206.0" stroke="#840000" stroke-width="1.8" stroke-linecap="round"/><line x1="417.8" y1="1212.0" x2="431.8" y2="1212.0" stroke="#840000" stroke-width="1.4" stroke-linecap="round"/><line x1="421.8" y1="1218.0" x2="427.8" y2="1218.0" stroke="#840000" stroke-width="1.0" stroke-linecap="round"/><text x="437.8" y="1213.0" fill="#006464" font-size="10" font-family="SF Mono, ui-monospace, Courier New, monospace">GND</text>
+  <line x1="322.8" y1="1181.0" x2="322.8" y2="1197.0" stroke="#009600" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="322.8" y1="1197.0" x2="322.8" y2="1206.0" stroke="#840000" stroke-width="1.5" stroke-linecap="round"/><line x1="311.8" y1="1206.0" x2="333.8" y2="1206.0" stroke="#840000" stroke-width="1.8" stroke-linecap="round"/><line x1="315.8" y1="1212.0" x2="329.8" y2="1212.0" stroke="#840000" stroke-width="1.4" stroke-linecap="round"/><line x1="319.8" y1="1218.0" x2="325.8" y2="1218.0" stroke="#840000" stroke-width="1.0" stroke-linecap="round"/><text x="335.8" y="1213.0" fill="#006464" font-size="10" font-family="SF Mono, ui-monospace, Courier New, monospace">GND</text>
+  <line x1="136.0" y1="209.2" x2="120.0" y2="209.2" stroke="#009600" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="120.0" y1="209.2" x2="111.0" y2="209.2" stroke="#840000" stroke-width="1.5" stroke-linecap="round"/><line x1="111.0" y1="198.2" x2="111.0" y2="220.2" stroke="#840000" stroke-width="1.8" stroke-linecap="round"/><line x1="105.0" y1="202.2" x2="105.0" y2="216.2" stroke="#840000" stroke-width="1.4" stroke-linecap="round"/><line x1="99.0" y1="206.2" x2="99.0" y2="212.2" stroke="#840000" stroke-width="1.0" stroke-linecap="round"/><text x="91.0" y="209.2" fill="#006464" font-size="10" font-family="SF Mono, ui-monospace, Courier New, monospace" text-anchor="end" dominant-baseline="middle">GND</text>
+  <line x1="924.0" y1="666.4" x2="908.0" y2="666.4" stroke="#009600" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="908.0" y1="666.4" x2="899.0" y2="666.4" stroke="#840000" stroke-width="1.5" stroke-linecap="round"/><line x1="899.0" y1="655.4" x2="899.0" y2="677.4" stroke="#840000" stroke-width="1.8" stroke-linecap="round"/><line x1="893.0" y1="659.4" x2="893.0" y2="673.4" stroke="#840000" stroke-width="1.4" stroke-linecap="round"/><line x1="887.0" y1="663.4" x2="887.0" y2="669.4" stroke="#840000" stroke-width="1.0" stroke-linecap="round"/><text x="879.0" y="666.4" fill="#006464" font-size="10" font-family="SF Mono, ui-monospace, Courier New, monospace" text-anchor="end" dominant-baseline="middle">GND</text>
+  <line x1="517.8" y1="209.2" x2="501.8" y2="209.2" stroke="#009600" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="415.8" y1="209.2" x2="431.8" y2="209.2" stroke="#009600" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="237.6" y1="209.2" x2="253.6" y2="209.2" stroke="#009600" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="501.8" y1="209.2" x2="78.0" y2="209.2" stroke="#009600" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="431.8" y1="209.2" x2="78.0" y2="209.2" stroke="#009600" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="253.6" y1="209.2" x2="78.0" y2="209.2" stroke="#009600" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="64.0" y="209.2" fill="#0f0f0f" font-size="11" font-family="SF Mono, ui-monospace, Courier New, monospace" text-anchor="end" dominant-baseline="middle">EN</text>
+  <circle cx="78.0" cy="209.2" r="3" fill="#009600"/>
+  <circle cx="253.6" cy="209.2" r="3" fill="#009600"/>
+  <circle cx="431.8" cy="209.2" r="3" fill="#009600"/>
+  <circle cx="415.8" cy="209.2" r="3" fill="#009600"/>
+  <circle cx="237.6" cy="209.2" r="3" fill="#009600"/>
+  <line x1="771.8" y1="336.2" x2="787.8" y2="336.2" stroke="#009600" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="799.8" y="336.2" fill="#0f0f0f" font-size="11" font-family="SF Mono, ui-monospace, Courier New, monospace" text-anchor="start" dominant-baseline="middle">S3_TXD0</text>
+  <line x1="924.0" y1="590.2" x2="908.0" y2="590.2" stroke="#009600" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="896.0" y="590.2" fill="#0f0f0f" font-size="11" font-family="SF Mono, ui-monospace, Courier New, monospace" text-anchor="end" dominant-baseline="middle">S3_TXD0</text>
+  <line x1="771.8" y1="361.6" x2="787.8" y2="361.6" stroke="#009600" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="799.8" y="361.6" fill="#0f0f0f" font-size="11" font-family="SF Mono, ui-monospace, Courier New, monospace" text-anchor="start" dominant-baseline="middle">S3_RXD0</text>
+  <line x1="924.0" y1="615.6" x2="908.0" y2="615.6" stroke="#009600" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="896.0" y="615.6" fill="#0f0f0f" font-size="11" font-family="SF Mono, ui-monospace, Courier New, monospace" text-anchor="end" dominant-baseline="middle">S3_RXD0</text>
+  <g>
+  <polygon points="543.20,158.40 746.40,158.40 746.40,1072.80 543.20,1072.80" stroke="#840000" stroke-width="2.54" fill="#ffffc2"/>
+  <line x1="644.80" y1="1098.20" x2="644.80" y2="1072.80" stroke="#840000" stroke-width="1.5"/>
+  <line x1="644.80" y1="133.00" x2="644.80" y2="158.40" stroke="#840000" stroke-width="1.5"/>
+  <line x1="517.80" y1="209.20" x2="543.20" y2="209.20" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="310.80" x2="746.40" y2="310.80" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="336.20" x2="746.40" y2="336.20" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="361.60" x2="746.40" y2="361.60" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="387.00" x2="746.40" y2="387.00" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="590.20" x2="746.40" y2="590.20" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="615.60" x2="746.40" y2="615.60" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="641.00" x2="746.40" y2="641.00" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="666.40" x2="746.40" y2="666.40" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="412.40" x2="746.40" y2="412.40" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="691.80" x2="746.40" y2="691.80" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="717.20" x2="746.40" y2="717.20" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="285.40" x2="746.40" y2="285.40" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="971.20" x2="746.40" y2="971.20" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="437.80" x2="746.40" y2="437.80" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="463.20" x2="746.40" y2="463.20" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="488.60" x2="746.40" y2="488.60" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="514.00" x2="746.40" y2="514.00" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="539.40" x2="746.40" y2="539.40" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="564.80" x2="746.40" y2="564.80" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="742.60" x2="746.40" y2="742.60" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="996.60" x2="746.40" y2="996.60" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="1022.00" x2="746.40" y2="1022.00" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="945.80" x2="746.40" y2="945.80" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="209.20" x2="746.40" y2="209.20" stroke="#840000" stroke-width="1.5"/>
+  <line x1="543.20" y1="971.20" x2="568.60" y2="971.20" stroke="#840000" stroke-width="1.5"/>
+  <line x1="543.20" y1="996.60" x2="568.60" y2="996.60" stroke="#840000" stroke-width="1.5"/>
+  <line x1="543.20" y1="1022.00" x2="568.60" y2="1022.00" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="768.00" x2="746.40" y2="768.00" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="793.40" x2="746.40" y2="793.40" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="818.80" x2="746.40" y2="818.80" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="844.20" x2="746.40" y2="844.20" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="869.60" x2="746.40" y2="869.60" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="920.40" x2="746.40" y2="920.40" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="895.00" x2="746.40" y2="895.00" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="260.00" x2="746.40" y2="260.00" stroke="#840000" stroke-width="1.5"/>
+  <line x1="771.80" y1="234.60" x2="746.40" y2="234.60" stroke="#840000" stroke-width="1.5"/>
+  <line x1="644.80" y1="1098.20" x2="644.80" y2="1072.80" stroke="#840000" stroke-width="1.5"/>
+  <line x1="644.80" y1="1098.20" x2="644.80" y2="1072.80" stroke="#840000" stroke-width="1.5"/>
+</g><text x="661.8" y="610.6" fill="#006464" font-size="11" font-family="SF Mono, ui-monospace, Courier New, monospace" text-anchor="start">U1</text><text x="661.8" y="626.6" fill="#006464" font-size="10" font-family="SF Mono, ui-monospace, Courier New, monospace" text-anchor="start">ESP32-S3-WROOM-2</text>
+  <g>
+  <line x1="409.56" y1="1150.52" x2="440.04" y2="1150.52" stroke="#840000" stroke-width="3.05" fill="none"/>
+  <line x1="409.56" y1="1160.68" x2="440.04" y2="1160.68" stroke="#840000" stroke-width="3.30" fill="none"/>
+  <line x1="424.80" y1="1130.20" x2="424.80" y2="1150.52" stroke="#840000" stroke-width="1.5"/>
+  <line x1="424.80" y1="1181.00" x2="424.80" y2="1160.68" stroke="#840000" stroke-width="1.5"/>
+</g><text x="448.8" y="1147.6" fill="#006464" font-size="11" font-family="SF Mono, ui-monospace, Courier New, monospace" text-anchor="start">C1</text><text x="448.8" y="1162.6" fill="#006464" font-size="10" font-family="SF Mono, ui-monospace, Courier New, monospace" text-anchor="start">100nF</text>
+  <g>
+  <line x1="307.56" y1="1150.52" x2="338.04" y2="1150.52" stroke="#840000" stroke-width="3.05" fill="none"/>
+  <line x1="307.56" y1="1160.68" x2="338.04" y2="1160.68" stroke="#840000" stroke-width="3.30" fill="none"/>
+  <line x1="322.80" y1="1130.20" x2="322.80" y2="1150.52" stroke="#840000" stroke-width="1.5"/>
+  <line x1="322.80" y1="1181.00" x2="322.80" y2="1160.68" stroke="#840000" stroke-width="1.5"/>
+</g><text x="346.8" y="1147.6" fill="#006464" font-size="11" font-family="SF Mono, ui-monospace, Courier New, monospace" text-anchor="start">C2</text><text x="346.8" y="1162.6" fill="#006464" font-size="10" font-family="SF Mono, ui-monospace, Courier New, monospace" text-anchor="start">10uF</text>
+  <g>
+  <line x1="354.84" y1="209.20" x2="352.30" y2="209.20" stroke="#840000" stroke-width="1.50" fill="none"/>
+  <polyline points="354.84,209.20 358.65,199.04 362.46,209.20 366.27,219.36 370.08,209.20" stroke="#840000" stroke-width="1.50" fill="none"/>
+  <polyline points="370.08,209.20 373.89,199.04 377.70,209.20 381.51,219.36 385.32,209.20" stroke="#840000" stroke-width="1.50" fill="none"/>
+  <polyline points="385.32,209.20 389.13,199.04 392.94,209.20 396.75,219.36 400.56,209.20" stroke="#840000" stroke-width="1.50" fill="none"/>
+  <line x1="400.56" y1="209.20" x2="403.10" y2="209.20" stroke="#840000" stroke-width="1.50" fill="none"/>
+  <line x1="339.60" y1="209.20" x2="352.30" y2="209.20" stroke="#840000" stroke-width="1.5"/>
+  <line x1="415.80" y1="209.20" x2="403.10" y2="209.20" stroke="#840000" stroke-width="1.5"/>
+</g><text x="377.7" y="184.2" fill="#006464" font-size="11" font-family="SF Mono, ui-monospace, Courier New, monospace" text-anchor="middle">R1</text><text x="377.7" y="234.2" fill="#006464" font-size="10" font-family="SF Mono, ui-monospace, Courier New, monospace" text-anchor="middle">10k</text>
+  <g>
+  <circle cx="207.12" cy="209.20" r="5.08" stroke="#840000" stroke-width="1.50" fill="none"/>
+  <line x1="186.80" y1="221.90" x2="186.80" y2="239.68" stroke="#840000" stroke-width="1.50" fill="none"/>
+  <circle cx="166.48" cy="209.20" r="5.08" stroke="#840000" stroke-width="1.50" fill="none"/>
+  <line x1="161.40" y1="221.90" x2="212.20" y2="221.90" stroke="#840000" stroke-width="1.50" fill="none"/>
+  <line x1="237.60" y1="209.20" x2="212.20" y2="209.20" stroke="#840000" stroke-width="1.5"/>
+  <line x1="136.00" y1="209.20" x2="161.40" y2="209.20" stroke="#840000" stroke-width="1.5"/>
+</g><text x="203.8" y="204.2" fill="#006464" font-size="11" font-family="SF Mono, ui-monospace, Courier New, monospace" text-anchor="start">SW1</text><text x="203.8" y="220.2" fill="#006464" font-size="10" font-family="SF Mono, ui-monospace, Courier New, monospace" text-anchor="start">POWER</text>
+  <g>
+  <polygon points="962.10,577.50 987.50,577.50 987.50,679.10 962.10,679.10" stroke="#840000" stroke-width="2.54" fill="#ffffc2"/>
+  <polygon points="962.10,588.93 974.80,588.93 974.80,591.47 962.10,591.47" stroke="#840000" stroke-width="1.52" fill="#ffffc2"/>
+  <polygon points="962.10,614.33 974.80,614.33 974.80,616.87 962.10,616.87" stroke="#840000" stroke-width="1.52" fill="#ffffc2"/>
+  <polygon points="962.10,639.73 974.80,639.73 974.80,642.27 962.10,642.27" stroke="#840000" stroke-width="1.52" fill="#ffffc2"/>
+  <polygon points="962.10,665.13 974.80,665.13 974.80,667.67 962.10,667.67" stroke="#840000" stroke-width="1.52" fill="#ffffc2"/>
+  <line x1="924.00" y1="590.20" x2="962.10" y2="590.20" stroke="#840000" stroke-width="1.5"/>
+  <line x1="924.00" y1="615.60" x2="962.10" y2="615.60" stroke="#840000" stroke-width="1.5"/>
+  <line x1="924.00" y1="641.00" x2="962.10" y2="641.00" stroke="#840000" stroke-width="1.5"/>
+  <line x1="924.00" y1="666.40" x2="962.10" y2="666.40" stroke="#840000" stroke-width="1.5"/>
+</g><text x="991.8" y="610.6" fill="#006464" font-size="11" font-family="SF Mono, ui-monospace, Courier New, monospace" text-anchor="start">J1</text><text x="991.8" y="626.6" fill="#006464" font-size="10" font-family="SF Mono, ui-monospace, Courier New, monospace" text-anchor="start">UART</text>
+</svg>
