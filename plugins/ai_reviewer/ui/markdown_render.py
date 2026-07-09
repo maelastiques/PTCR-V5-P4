@@ -19,6 +19,38 @@ import os
 import re
 from typing import Dict, List, Optional, Tuple
 
+try:
+    from ..exporters.sym_renderer import render_circuit_dsl as _render_circuit_dsl
+    from ..exporters.schematic_engine_v2 import render_netlist as _render_netlist
+    from ..exporters.sym_renderer import save_custom_symbol as _save_custom_symbol
+    _HAS_SYM_RENDERER = True
+except Exception:
+    try:
+        from exporters.sym_renderer import render_circuit_dsl as _render_circuit_dsl
+        from exporters.schematic_engine_v2 import render_netlist as _render_netlist
+        from exporters.sym_renderer import save_custom_symbol as _save_custom_symbol
+        _HAS_SYM_RENDERER = True
+    except Exception:
+        _HAS_SYM_RENDERER = False
+        _render_circuit_dsl = None      # type: ignore[assignment]
+        _render_netlist = None          # type: ignore[assignment]
+        _save_custom_symbol = None      # type: ignore[assignment]
+
+
+def _render_svg_fresh(kind: str, text: str, renderer) -> str:
+    """Render a schematic-like block fresh every time."""
+    if renderer is None:
+        return ""
+
+    try:
+        svg_str = renderer(text)
+    except Exception:
+        return ""
+
+    if not svg_str:
+        return ""
+    return svg_str
+
 
 # ---------------------------------------------------------------------------
 # Theme
@@ -319,6 +351,70 @@ def _parse_list(lines: List[str], start: int) -> Tuple[str, int]:
     return "".join(result), i
 
 
+def _parse_and_save_component_def(text: str) -> None:
+    """
+    Parse a ``component_def`` fenced block and persist it to the plugin cache.
+
+    Expected format (YAML-like, flexible):
+        name: SX1262
+        description: LoRa sub-GHz transceiver
+        source_url: https://...
+        pins:
+          1: VDD
+          2: GND
+          3: NSS
+          ...
+    """
+    data: dict = {"pins": {}}
+    in_pins = False
+    for raw in text.splitlines():
+        line = raw.strip()
+        if not line or line.startswith("#"):
+            continue
+        if line.lower().startswith("pins:"):
+            in_pins = True
+            continue
+        if in_pins:
+            # "  1: VDD" or "  1: VDD (power_in)"
+            m = re.match(r"(\d+)\s*:\s*(.+)", line)
+            if m:
+                pnum = m.group(1).strip()
+                pname = m.group(2).strip().split("(")[0].strip()
+                data["pins"][pnum] = pname
+            continue
+        if ":" in line:
+            key, _, val = line.partition(":")
+            data[key.strip().lower()] = val.strip()
+    name = data.get("name", "")
+    if name and data["pins"] and _save_custom_symbol is not None:
+        _save_custom_symbol(name, data)
+
+
+def _collect_component_def_block(lines: List[str], start: int) -> Tuple[List[str], int]:
+    block: List[str] = []
+    i = start
+
+    def _is_yaml_key(line: str) -> bool:
+        return bool(re.match(r"^[A-Za-z0-9_-]+\s*:\s*.*$", line))
+
+    while i < len(lines):
+        raw = lines[i]
+        stripped = raw.strip()
+        if not stripped:
+            break
+        if stripped.startswith("```") or stripped.startswith("~~~"):
+            break
+        if not block:
+            if not _is_yaml_key(stripped):
+                break
+        else:
+            if not (_is_yaml_key(stripped) or stripped.lower() == "pins:" or stripped.startswith("  ") or stripped.startswith("\t")):
+                break
+        block.append(raw)
+        i += 1
+    return block, i
+
+
 def markdown_to_html(text: str) -> str:
     """Convert a Markdown string into a safe HTML fragment."""
     if not text:
@@ -344,7 +440,72 @@ def markdown_to_html(text: str) -> str:
                                  and set(lines[i].strip()) <= {marker[0]}):
                 code_lines.append(lines[i])
                 i += 1
-            i += 1  # consume closing fence
+            closed = i < n
+            if closed:
+                i += 1  # consume closing fence
+            if not closed:
+                code_html = html.escape("\n".join(code_lines), quote=False)
+                lang_label = html.escape(lang, quote=False) if lang else "code"
+                out.append(
+                    '<div class="codeblock pending-codeblock">'
+                    '<div class="codeblock-head"><span class="lang">{lang}</span></div>'
+                    '<pre><code>{code}</code></pre>'
+                    "</div>".format(lang=lang_label, code=code_html)
+                )
+                continue
+            # component_def block — AI-defined custom symbol, saved to plugin cache.
+            if lang.lower() == "component_def":
+                if _HAS_SYM_RENDERER and _save_custom_symbol is not None:
+                    try:
+                        _parse_and_save_component_def("\n".join(code_lines))
+                    except Exception:
+                        pass
+                # Render a small confirmation badge, not a schematic
+                out.append('<div class="schematic-block" style="font-size:11px;color:#006464;'
+                           'padding:4px 10px;background:#ffffc266;border-radius:6px;'
+                           'border:1px solid #840000;display:inline-block;margin:6px 0">'
+                           '&#10003; Symbol saved to plugin cache</div>')
+                continue
+            # Netlist block — KiCad auto-layout engine with real symbols.
+            if lang.lower() == "netlist":
+                svg_str = _render_svg_fresh("netlist", "\n".join(code_lines), _render_netlist if _HAS_SYM_RENDERER else None)
+                if svg_str:
+                    b64 = base64.b64encode(svg_str.encode("utf-8")).decode("ascii")
+                    out.append(
+                        '<div class="schematic-block">'
+                        '<img src="data:image/svg+xml;base64,{b64}" class="schematic-img" alt="Schematic"/>'
+                        "</div>".format(b64=b64)
+                    )
+                else:
+                    out.append('<div class="schematic-block"><em style="color:#9aa0ab">'
+                               '[schematic_engine unavailable]'
+                               '</em></div>')
+                continue
+            # Circuit DSL block — render via sym_renderer (real KiCad symbols).
+            if lang.lower() == "circuit":
+                svg_str = _render_svg_fresh("circuit", "\n".join(code_lines), _render_circuit_dsl if _HAS_SYM_RENDERER else None)
+                if svg_str:
+                    b64 = base64.b64encode(svg_str.encode("utf-8")).decode("ascii")
+                    out.append(
+                        '<div class="schematic-block">'
+                        '<img src="data:image/svg+xml;base64,{b64}" class="schematic-img" alt="Circuit"/>'
+                        "</div>".format(b64=b64)
+                    )
+                else:
+                    out.append('<div class="schematic-block"><em style="color:#9aa0ab">'
+                               '[sym_renderer unavailable — use a ```schematic SVG block instead]'
+                               '</em></div>')
+                continue
+            # Schematic / SVG block — render as safe base64 image (scripts cannot run).
+            if lang.lower() in ("schematic", "svg-schematic"):
+                svg_content = "\n".join(code_lines)
+                b64 = base64.b64encode(svg_content.encode("utf-8")).decode("ascii")
+                out.append(
+                    '<div class="schematic-block">'
+                    '<img src="data:image/svg+xml;base64,{b64}" class="schematic-img" alt="Schematic"/>'
+                    "</div>".format(b64=b64)
+                )
+                continue
             code_html = html.escape("\n".join(code_lines), quote=False)
             lang_label = html.escape(lang, quote=False) if lang else "code"
             out.append(
@@ -365,6 +526,22 @@ def markdown_to_html(text: str) -> str:
             out.append("<hr/>")
             i += 1
             continue
+
+        # Bare component_def block without fences.
+        if stripped.lower() == "component_def":
+            block_lines, next_i = _collect_component_def_block(lines, i + 1)
+            if block_lines:
+                if _HAS_SYM_RENDERER and _save_custom_symbol is not None:
+                    try:
+                        _parse_and_save_component_def("\n".join(block_lines))
+                    except Exception:
+                        pass
+                out.append('<div class="schematic-block" style="font-size:11px;color:#006464;'
+                           'padding:4px 10px;background:#ffffc266;border-radius:6px;'
+                           'border:1px solid #840000;display:inline-block;margin:6px 0">'
+                           '&#10003; Symbol saved to plugin cache</div>')
+                i = next_i
+                continue
 
         # Heading.
         heading = _HEADING_RE.match(line)
@@ -568,6 +745,11 @@ hr {{ border: none; border-top: 1px solid {border}; margin: 16px 0; }}
 .layer-gallery img:hover {{ transform:scale(1.04); }}
 .layer-gallery figcaption {{ font-size:.75em; color:{muted}; margin-top:3px; }}
 
+.schematic-block {{ margin: 12px 0; text-align: center; }}
+.schematic-img {{ max-width: 100%; border-radius: 10px;
+    border: 1px solid {border}; cursor: zoom-in; transition: transform .15s; }}
+.schematic-img:hover {{ transform: scale(1.02); }}
+
 #lb-overlay {{
     display:none; position:fixed; top:0; left:0; right:0; bottom:0;
     background:rgba(0,0,0,.88); z-index:9999;
@@ -685,7 +867,11 @@ def render_conversation(
                     _render_inline(line) if line.strip() else ""
                     for line in raw.split("\n")))
             else:
-                content_html = markdown_to_html(raw)
+                cached_html = item.get("rendered_content_html")
+                if isinstance(cached_html, str) and cached_html:
+                    content_html = cached_html
+                else:
+                    content_html = markdown_to_html(raw)
 
             name = str(item.get("name", "")) or {
                 "user": "You", "assistant": "Maelectrix",
@@ -703,7 +889,8 @@ def render_conversation(
             meta_html = '<div class="meta"><span class="name">{name}</span>{cost}</div>'.format(
                 name=html.escape(name, quote=False), cost=cost)
 
-            actions = _actions_html(index, role) if role in ("user", "assistant") else ""
+            history_index = int(item.get("_history_index", index) or index)
+            actions = _actions_html(history_index, role) if role in ("user", "assistant") else ""
             avatar_html = _ai_avatar if role == "assistant" else ""
 
             # Build layer image gallery above the bubble
@@ -714,7 +901,13 @@ def render_conversation(
                 for lname, lpath in list(layer_images.items())[:6]:
                     # Embed as base64 to bypass WKWebView file:// sandbox restrictions
                     src = ""
-                    if lpath and os.path.exists(lpath):
+                    cached_src = None
+                    layer_data = item.get("layer_images_data")
+                    if isinstance(layer_data, dict):
+                        cached_src = layer_data.get(lname)
+                    if isinstance(cached_src, str) and cached_src:
+                        src = cached_src
+                    elif lpath and os.path.exists(lpath):
                         try:
                             with open(lpath, "rb") as _fh:
                                 _b64 = base64.b64encode(_fh.read()).decode("ascii")
@@ -762,7 +955,7 @@ def render_conversation(
         "<div id=\"lb-overlay\"></div>"
         "<script>"
         "document.addEventListener('click',function(e){{"
-        "var img=e.target.closest('.layer-gallery img');"
+        "var img=e.target.closest('.layer-gallery img,.schematic-img');"
         "if(img){{e.preventDefault();"
         "var lb=document.getElementById('lb-overlay');"
         "var li=lb.querySelector('img');if(!li){{li=document.createElement('img');lb.appendChild(li);}}"

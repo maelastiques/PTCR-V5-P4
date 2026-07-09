@@ -1,4 +1,5 @@
 import base64
+import copy
 import json
 import os
 import re
@@ -24,7 +25,7 @@ from .widgets import FlatButton, RoundedPanel, hex_to_colour, is_dark_colour
 
 
 COMMAND_PATTERN = re.compile(
-    r"\{\s*(execute_full|execute_drc|execute_erc|read_project|read_pcb|run_drc|run_erc|export_pdf|export_images?)\s*\}",
+    r"\{\s*(execute_full|execute_drc|execute_erc|read_project|read_pcb|run_drc|run_erc|export_pdf|export_images?|ultralibrarian_search|ultralibrarian_get_part|ultralibrarian_lookup)\s*\}",
     re.IGNORECASE,
 )
 
@@ -81,6 +82,9 @@ class ChatFrame(wx.Frame):
         self._stream_content = ""
         self._stream_pending = False
         self._scroll_pending = True
+        self._render_token = 0
+        self._spend_total_usd = 0.0
+        self._spend_total_dirty = True
         self.is_macos = wx.Platform == "__WXMAC__"
 
         self.theme_bg = wx.SystemSettings.GetColour(wx.SYS_COLOUR_WINDOW)
@@ -391,22 +395,23 @@ class ChatFrame(wx.Frame):
     # ------------------------------------------------------------------
     # WebView conversation rendering
     # ------------------------------------------------------------------
-    def _view_messages(self) -> List[Dict[str, Any]]:
+    def _view_messages_from(self, history: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         """Build the list of renderable messages (index-aligned with history).
 
         Internal tool-loop messages (_hidden=True) are excluded from the view
         so the user only sees user messages and the final AI responses.
         """
         view: List[Dict[str, Any]] = []
-        for item in self.history:
+        for index, item in enumerate(history):
             if item.get("_hidden"):
                 continue
             role = str(item.get("role", "assistant"))
             if role == "error":
                 content = self._format_error_card(str(item.get("content", "")), str(item.get("details", "")))
-                view.append({"role": "error", "content": content})
+                view.append({"role": "error", "content": content, "_history_index": index})
             else:
                 entry: Dict[str, Any] = {"role": role, "content": str(item.get("content", ""))}
+                entry["_history_index"] = index
                 try:
                     cost = float(item.get("prompt_cost_usd", 0.0) or 0.0)
                     if cost > 0.0:
@@ -416,17 +421,94 @@ class ChatFrame(wx.Frame):
                 view.append(entry)
         return view
 
-    def _render_history(self) -> None:
-        self._update_header_stats()
-        html_doc = render_conversation(
-            self._view_messages(),
-            self.theme,
-            typing=self._is_busy,
-            empty_hint=WELCOME_HINT,
-        )
+    def _view_messages(self) -> List[Dict[str, Any]]:
+        return self._view_messages_from(self.history)
+
+    def _needs_render_artifact(self, item: Dict[str, Any]) -> bool:
+        if str(item.get("role", "")).lower() != "assistant":
+            return False
+        raw = str(item.get("content", ""))
+        if not raw:
+            return False
+        return any(token in raw for token in ("```netlist", "```circuit", "```schematic", "component_def"))
+
+    def _materialize_display_artifacts(self, history: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        prepared = copy.deepcopy(history)
+        for item in prepared:
+            if not isinstance(item, dict) or item.get("_hidden"):
+                continue
+            role = str(item.get("role", "assistant"))
+            if role != "assistant":
+                continue
+            raw = str(item.get("content", ""))
+            if self._needs_render_artifact(item) and not item.get("rendered_content_html"):
+                item["rendered_content_html"] = markdown_to_html(raw)
+            if item.get("layer_images") and not item.get("layer_images_data"):
+                layer_data: Dict[str, str] = {}
+                for lname, lpath in list(item.get("layer_images", {}).items())[:6]:
+                    src = ""
+                    if lpath and os.path.exists(lpath):
+                        try:
+                            with open(lpath, "rb") as _fh:
+                                _b64 = base64.b64encode(_fh.read()).decode("ascii")
+                            mime = "image/svg+xml" if lpath.endswith(".svg") else "image/png"
+                            src = "data:{};base64,{}".format(mime, _b64)
+                        except Exception:
+                            src = ""
+                    if src:
+                        layer_data[str(lname)] = src
+                if layer_data:
+                    item["layer_images_data"] = layer_data
+        return prepared
+
+    def _render_history_worker(self, session_id: str, token: int, history_snapshot: List[Dict[str, Any]], busy: bool) -> None:
+        try:
+            prepared = self._materialize_display_artifacts(history_snapshot)
+            html_doc = render_conversation(
+                self._view_messages_from(prepared),
+                self.theme,
+                typing=busy,
+                empty_hint=WELCOME_HINT,
+            )
+        except Exception:
+            return
+
+        wx.CallAfter(self._apply_rendered_history, session_id, token, prepared, html_doc)
+
+    def _apply_rendered_history(
+        self,
+        session_id: str,
+        token: int,
+        prepared_history: List[Dict[str, Any]],
+        html_doc: str,
+    ) -> None:
+        if token != self._render_token or session_id != self.current_session_id:
+            return
+
+        self.history = prepared_history
         self._scroll_pending = True
         images_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "images")
         self.webview.SetPage(html_doc, "file://" + images_dir + "/")
+        try:
+            self._save_current_session()
+        except Exception:
+            pass
+
+    def _render_history(self) -> None:
+        self._update_header_stats()
+        self._render_token += 1
+        token = self._render_token
+        session_id = self.current_session_id
+        history_snapshot = copy.deepcopy(self.history)
+        self.webview.SetPage(
+            '<div style="padding:18px;color:#6b7280;font-family:sans-serif;font-size:13px;">Loading conversation…</div>',
+            "file://" + os.path.join(os.path.dirname(os.path.dirname(__file__)), "images") + "/",
+        )
+        threading.Thread(
+            target=self._render_history_worker,
+            args=(session_id, token, history_snapshot, self._is_busy),
+            daemon=True,
+        ).start()
 
     def _scroll_to_bottom(self) -> None:
         try:
@@ -685,8 +767,13 @@ class ChatFrame(wx.Frame):
         return item
 
     def _compute_spend_usd(self) -> float:
+        if not self._spend_total_dirty:
+            return self._spend_total_usd
+
         total = 0.0
         if not os.path.isdir(self.chats_root_dir):
+            self._spend_total_usd = total
+            self._spend_total_dirty = False
             return total
 
         for name in os.listdir(self.chats_root_dir):
@@ -701,6 +788,8 @@ class ChatFrame(wx.Frame):
                     total += float(item.get("total_cost_usd", 0.0) or 0.0)
                 except Exception:
                     continue
+        self._spend_total_usd = total
+        self._spend_total_dirty = False
         return total
 
     def _update_header_stats(self) -> None:
@@ -784,6 +873,7 @@ class ChatFrame(wx.Frame):
         }
         self._write_json(self._session_meta_path(session_id), meta)
         self._write_json(self._session_history_path(session_id), [])
+        self._spend_total_dirty = True
         return session_id
 
     def _refresh_chat_list(self) -> None:
@@ -825,6 +915,7 @@ class ChatFrame(wx.Frame):
 
         self._write_json(self._session_meta_path(self.current_session_id), meta)
         self._write_json(self._session_history_path(self.current_session_id), self.history)
+        self._spend_total_dirty = True
 
     def _init_chat_sessions(self) -> None:
         os.makedirs(self.chats_root_dir, exist_ok=True)
@@ -978,6 +1069,9 @@ class ChatFrame(wx.Frame):
             "export_images":             "Exporting layer images…",
             "read_design_rules":         "Reading design rules…",
             "read_net_class_assignments":"Reading net class assignments…",
+            "ultralibrarian_search":     "Searching UltraLibrarian…",
+            "ultralibrarian_get_part":   "Opening UltraLibrarian part…",
+            "ultralibrarian_lookup":     "Resolving UltraLibrarian part…",
             "modify_netclass":           "Modifying net class…",
             "set_drc_severity":          "Updating DRC severity…",
             "save_board":                "Saving board…",
@@ -1383,6 +1477,7 @@ class ChatFrame(wx.Frame):
         session_dir = self._session_dir(self.current_session_id)
         if os.path.isdir(session_dir):
             shutil.rmtree(session_dir, ignore_errors=True)
+        self._spend_total_dirty = True
 
         self._refresh_chat_list()
         if self._session_items:

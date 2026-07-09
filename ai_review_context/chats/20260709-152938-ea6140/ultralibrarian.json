@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "source": "ultralibrarian",
+  "detail_url": "https://app.ultralibrarian.com/details/15a982dc-103f-11e9-ab3a-0a3560a4cccc/Texas-Instruments/BQ24072RGTR?uid=12192001",
+  "title": "Texas Instruments BQ24072RGTR: Symbol, Footprint, 3D STEP Model | Ultra Librarian",
+  "manufacturer": "Texas Instruments",
+  "part_name": "BQ24072RGTR",
+  "description": "Download CAD models for the 16 pin RGT Texas Instruments BQ24072RGTR. Standalone 1-cell 1.5-A linear battery charger, Power Path, 4.2-V VBAT and VOUT=VBAT + 225mV 16-VQFN -40 to 85. Available in over 22 CAD formats including: Altium, Eagle, OrCAD, KiCAD, PADS, and more.",
+  "datasheet_page_url": "https://app.ultralibrarian.com/details/datasheet/15a982dc-103f-11e9-ab3a-0a3560a4cccc/Texas-Instruments/BQ24072RGTR",
+  "symbol_available": true,
+  "footprint_available": true,
+  "model_3d_available": true,
+  "requires_login": true,
+  "previews": [
+    {
+      "url": "https://static.ultralibrarian.com/part-previews/symbols/5148549/1-1-BQ24072_RGT_16.svg",
+      "alt": "Symbol preview for BQ24072RGTR"
+    },
+    {
+      "url": "https://static.ultralibrarian.com/part-previews/footprints/5148549/basic-RGT16_1P7X1P7.svg",
+      "alt": "Basic footprint preview for BQ24072RGTR"
+    },
+    {
+      "url": "https://static.ultralibrarian.com/part-previews/footprints/5148549/detailed-RGT16_1P7X1P7.svg",
+      "alt": "Detailed footprint preview for BQ24072RGTR"
+    }
+  ]
+}

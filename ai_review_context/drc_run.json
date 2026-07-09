@@ -11,9 +11,9 @@
     "--format",
     "json"
   ],
-  "stdout": "Violations trouvées 983\nTrouvé 21 éléments non connectés\nRapport DRC sauvegardé en /Users/maelastiques/PTCR-V5-P4/ai_review_context/drc_report.json\n",
+  "stdout": "Violations trouvées 980\nTrouvé 20 éléments non connectés\nRapport DRC sauvegardé en /Users/maelastiques/PTCR-V5-P4/ai_review_context/drc_report.json\n",
   "stderr": "",
   "report_path": "/Users/maelastiques/PTCR-V5-P4/ai_review_context/drc_report.json",
   "report_exists": true,
-  "issue_count": 983
+  "issue_count": 980
 }
